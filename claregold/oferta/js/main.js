@@ -22,9 +22,9 @@ $(document).ready(function () {
 
 // CONTADOR
 $(document).ready(function () {
-  var timer2 = "20:00";
+  var timer1 = "20:00";
   var interval = setInterval(function () {
-    var timer = timer2.split(":");
+    var timer = timer1.split(":");
     var minutos = parseInt(timer[0], 10);
     var segundos = parseInt(timer[1], 10);
     --segundos;
@@ -37,7 +37,7 @@ $(document).ready(function () {
     if (minutos < 0) clearInterval(interval);
     //check if both minutos and segundos are 0
     if (segundos <= 0 && minutos <= 0) clearInterval(interval);
-    timer2 = minutos + ":" + segundos;
+    timer1 = minutos + ":" + segundos;
   }, 1000);
 });
 

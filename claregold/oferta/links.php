@@ -31,9 +31,9 @@ if (isset($_GET ['id'])) {
 
 $parametros = '?src=' . $src . '&utm_source=' . $utm_source . '&utm_content=' . $utm_content . '&transport=1';
 
-$kit3_claregold_oferta = 'https://app.monetizze.com.br/checkout/DBQ68530' . $parametros;
-$kit2_claregold_oferta = 'https://app.monetizze.com.br/checkout/DFP68529' . $parametros;
-$kit1_claregold_oferta = 'https://app.monetizze.com.br/checkout/DMZ68528' . $parametros;
+$kit3_claregold_oferta_maes = 'https://app.monetizze.com.br/checkout/DGL68527' . $parametros;
+$kit2_claregold_oferta_maes = 'https://app.monetizze.com.br/checkout/DEZ68526' . $parametros;
+$kit1_claregold_oferta_maes = 'https://app.monetizze.com.br/checkout/DPW68508' . $parametros;
 
 $pixel = '';
 $google = '';

@@ -30,15 +30,6 @@ a:hover {
   text-decoration: none;
 }
 
-.destaque {
-  background-image: url(../img/banner_claregold_desktop.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 460px;
-  padding-bottom: 2rem;
-}
-
 .botao {
   border-radius: 5px;
   /* box-shadow: 0px 10px 19px 1px rgba(0, 0, 0, 0.3); */
@@ -59,10 +50,19 @@ a:hover {
   padding: 0.75rem 0 0.75rem;
 }
 
+.destaque {
+  background-image: url(../img/banner_claregold_desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 440px;
+  padding-bottom: 2rem;
+}
+
 /*** AVISO */
 
 .aviso {
-  background-color:#7b3876;
+  background-color: #7b3876;
   padding: 1rem 0 0;
   color: #ffffff;
 }
@@ -79,6 +79,13 @@ a:hover {
 
 .aviso p span {
   font-weight: bold;
+}
+
+.aviso .horario {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 100%;
 }
 
 /**** EBOOK */
@@ -180,7 +187,7 @@ a:hover {
   color: #000000;
 }
 
-.garantia p span{
+.garantia p span {
   font-weight: bold;
 }
 
@@ -391,33 +398,6 @@ a:hover {
   line-height: 30px;
 }
 
-.quadrado {
-  height: 100px;
-  width: 100px;
-  float: left;
-  margin-right: 20px;
-  text-align: center;
-  background-color: #f9b133;
-  color: #ffffff;
-  vertical-align: middle;
-  position: relative;
-}
-
-.min-e-segundo .quadrado:nth-child(2) {
-  margin-right: 0;
-}
-
-.conteudo-square {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.conteudo-square p:nth-child(2) {
-  margin-bottom: 0;
-}
-
 /***** PERGUNSTAS FREQUENTES *******/
 .perguntas-frequentes {
   font-family: "Roboto", sans-serif;
@@ -601,19 +581,20 @@ a:hover {
     background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/fundo_mobile_03-05-08-11.webp);
   }
 
-  .depoimentos{
+  .depoimentos {
     background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/fundo_mobile_07-09.webp);
   }
 
-  .anvisa{
+  .anvisa {
     background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/fundo_mobile_03-05-08-11.webp);
   }
 
-  .como-claregold.conheca, .ebook {
+  .como-claregold.conheca,
+  .ebook {
     background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/fundo_mobile_02-06-10.webp);
   }
 
-  .banner-mobile{
+  .banner-mobile {
     background-image: url(../img/banner_claregold_mobile.png);
     background-size: cover;
     background-position: center;
