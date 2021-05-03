@@ -88,6 +88,12 @@ a:hover {
   line-height: 100%;
 }
 
+.aviso .oferta-expira{
+  text-transform: uppercase;
+  line-height: 100%;
+  font-weight: bold;
+}
+
 /**** EBOOK */
 .ebook {
   background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/fundo_desktop_02-06-10.webp);
