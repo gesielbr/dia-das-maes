@@ -298,7 +298,7 @@ a:hover {
 .titulo-kits {
   color: #0c0507;
   font-size: clamp(18px, 3vw, 18px);
-  line-height: clamp(18px, 3vw, 18px);
+  line-height: clamp(18px, 3vw, 23px);
   font-weight: bold;
   text-transform: uppercase;
   margin-top: 20px;
