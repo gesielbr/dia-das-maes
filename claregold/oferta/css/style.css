@@ -1,0 +1,606 @@
+/* FONT ROBOTO */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&amp;display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+  box-shadow: unset;
+}
+
+.btn.focus,
+.btn:focus {
+  outline: unset;
+  box-shadow: unset;
+}
+
+a,
+a:active,
+a:hover {
+  color: unset;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.botao {
+  border-radius: 5px;
+  /* box-shadow: 0px 10px 19px 1px rgba(0, 0, 0, 0.3); */
+  max-width: 80%;
+  color: #ffffff;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #7b3876;
+  border: 2px solid #7b3876;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+/*** LOGO */
+.logo {
+  background-color: #000000;
+  padding: 0.75rem 0 0.75rem;
+}
+
+/*** AVISO */
+
+.aviso {
+  background-color:#7b3876;
+  padding: 1rem 0 0;
+  color: #ffffff;
+}
+
+.aviso h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: clamp(16px, 3vw, 28px);
+}
+
+.aviso p {
+  font-size: clamp(16px, 3vw, 22px);
+}
+
+.aviso p span {
+  font-weight: bold;
+}
+
+/**** EBOOK */
+.ebook {
+  background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/fundo_desktop_02-06-10.webp);
+  background-position: center center;
+  background-size: cover;
+  padding: 2rem 0 2rem;
+}
+.ebook h2 {
+  color: #7b3876;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: clamp(22px, 3vw, 36px);
+}
+
+.ebook h2 span {
+  color: #000000;
+}
+
+/*** VIDEO ***/
+.video {
+  background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/fundo_desktop_03-05-08-11.webp);
+  background-size: cover;
+  padding: 2rem 0 2rem;
+}
+
+.video h2 {
+  font-size: clamp(20px, 3vw, 36px);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.video h2 span {
+  color: #7b3876;
+}
+
+/*** DEPOIMENTOS ***/
+
+.depoimentos {
+  background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/fundo_desktop_07-09.webp);
+  background-size: cover;
+  padding: 2rem 0 2rem;
+}
+
+.depoimentos h2 {
+  font-size: clamp(20px, 3vw, 36px);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.depoimentos h2 span {
+  color: #7b3876;
+}
+
+/*** RESULTADOS */
+.resultados {
+  background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/fundo_desktop_03-05-08-11.webp);
+  background-size: cover;
+  padding: 2rem 0 2rem;
+  color: #000000;
+}
+
+.resultados h2 {
+  color: #7b3876;
+  font-size: clamp(20px, 3vw, 36px);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.resultados h2 span {
+  color: #000000;
+}
+
+.resultados p {
+  font-size: 16px;
+}
+
+.titulo-resultados {
+  font-size: 16px;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/*** ANVISA */
+
+.anvisa {
+  background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/fundo_mobile_03-05-08-11.webp);
+  background-size: cover;
+  padding: 2rem 0 2rem;
+  color: #000000;
+}
+
+.garantia {
+  background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/fundo_desktop_02-06-10.webp) !important;
+  background-size: cover;
+  padding: 2rem 0 2rem;
+  color: #000000;
+}
+
+.garantia p span{
+  font-weight: bold;
+}
+
+.anvisa h2 {
+  font-size: clamp(20px, 3vw, 36px);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.anvisa h2 span {
+  color: #7b3876;
+}
+
+/***** KITS *******/
+
+.kits {
+  background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/fundo_desktop_01.webp);
+  background-size: cover;
+  padding: 2rem 0 2rem;
+  color: #000000;
+}
+
+.kits h2 {
+  font-size: clamp(20px, 3vw, 36px);
+  line-height: clamp(20px, 3vw, 36px);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.kits h2 span {
+  color: #7c3677;
+}
+
+.kits h4 {
+  margin: auto auto;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: bold;
+}
+
+.bg-roxo {
+  background-color: #7c3677;
+}
+
+.bg-escuro {
+  background-color: #343434;
+}
+
+.bg-cinza {
+  background-color: #e8e8e8;
+}
+
+.percentual-desconto {
+  font-size: clamp(16px, 3vw, 20px);
+  line-height: 100%;
+  color: #ffffff;
+  font-weight: bolder;
+  margin-bottom: 3px;
+  margin-top: 6px;
+}
+
+.off {
+  line-height: 100%;
+  color: #ffffff;
+  margin: 0;
+}
+
+.trofeu {
+  line-height: 100%;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.o-mais {
+  margin: 0;
+  line-height: 100%;
+  font-size: 20px;
+  color: #ffffff;
+  display: inline;
+}
+
+.vendido {
+  margin: 0;
+  line-height: 100%;
+  font-size: 22px;
+  font-weight: bolder;
+  color: #ffffff;
+  display: inline;
+}
+
+.card {
+  border: none;
+}
+
+.card-cor-fundo-kits {
+  padding: 0;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  border: unset;
+}
+
+.descontos-cards {
+  color: #000000;
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 0 10px;
+  margin-top: -40px;
+  background-color: #f2ce1b;
+}
+
+.titulo-kits {
+  color: #0c0507;
+  font-size: clamp(18px, 3vw, 18px);
+  line-height: clamp(18px, 3vw, 18px);
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.titulo-kits span {
+  color: #7c3677;
+}
+
+.informacoes {
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+
+.de-por {
+  font-size: 14px;
+  line-height: 14px;
+  text-decoration: line-through;
+  color: red;
+  text-transform: uppercase;
+}
+
+.por {
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.por span {
+  font-weight: bold;
+}
+
+.por-apenas {
+  font-size: 14px;
+  line-height: clamp(31px, 4vw, 34px);
+  text-transform: uppercase;
+}
+
+.por-apenas span {
+  font-weight: bold;
+}
+
+.valor {
+  color: #7b3876;
+  font-family: "Roboto", Sans-serif;
+  font-size: clamp(32px, 4vw, 42px);
+  line-height: clamp(20px, 4vw, 32px);
+  font-weight: bolder;
+}
+
+.blinking {
+  animation: opacity 1.5s ease-in-out infinite;
+  opacity: 1;
+}
+
+.seta-esquerda,
+.seta-direita {
+  width: 60%;
+}
+
+.contem {
+  font-weight: bold;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 1;
+  }
+  /* 50% {
+	  opacity: 0.5;
+	} */
+  100% {
+    opacity: 0;
+  }
+}
+
+/**** CONTADOR ****/
+.min {
+  font-size: 42px;
+  font-weight: bold;
+  margin: 10px 0 0;
+  line-height: 30px;
+}
+
+.seg {
+  font-size: 42px;
+  font-weight: bold;
+  margin: 10px 0 0;
+  line-height: 30px;
+}
+
+.quadrado {
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+  text-align: center;
+  background-color: #f9b133;
+  color: #ffffff;
+  vertical-align: middle;
+  position: relative;
+}
+
+.min-e-segundo .quadrado:nth-child(2) {
+  margin-right: 0;
+}
+
+.conteudo-square {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.conteudo-square p:nth-child(2) {
+  margin-bottom: 0;
+}
+
+/***** PERGUNSTAS FREQUENTES *******/
+.perguntas-frequentes {
+  font-family: "Roboto", sans-serif;
+  padding: 2rem 0 2rem;
+  background-color: #fefefe;
+}
+
+.perguntas-frequentes h2 {
+  font-size: clamp(20px, 3vw, 36px);
+  line-height: clamp(20px, 3vw, 36px);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/***** ACORDION *******/
+
+.btn-link {
+  width: 100%;
+  color: #000000 !important;
+  font-weight: bold !important;
+  text-align: left !important;
+  text-decoration: none !important;
+}
+
+.btn-link:after {
+  content: "\2212";
+  width: 35px;
+  font-size: 25px;
+  text-align: center;
+  right: 5px;
+  top: 5px;
+  position: absolute;
+  /* background-color: #e8eeff; */
+  color: #5a5a5a;
+}
+
+.bordas-accordion {
+  border: none !important;
+  border-bottom: 1px solid #d4d4d4 !important;
+  border-left: 1px solid #d4d4d4 !important;
+  border-right: 1px solid #d4d4d4 !important;
+  border-radius: 0 !important;
+}
+
+.bordas-accordion:first-child {
+  border-top: 1px solid #d4d4d4 !important;
+}
+
+.bordas-accordion:last-child {
+  border-bottom: 1px solid #d4d4d4 !important;
+}
+
+.accordion {
+  background-color: none !important;
+  border: none !important;
+  background-color: #ffffff !important;
+}
+
+.btn-link.collapsed:after {
+  content: "\002B";
+  color: #5a5a5a;
+}
+
+.conteudo-acordion {
+  background-color: #f9f9f9 !important;
+}
+/********** SELOS ************/
+
+.selos {
+  padding: 2rem 0 2rem;
+}
+
+/********** RODAPE ************/
+
+#rodape {
+  text-align: center;
+  background-color: #f9f9f9;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+#rodape h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.img-rodape {
+  width: 100%;
+  max-width: 180px;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+.whats {
+  width: 100%;
+  max-width: 200px;
+}
+
+.correios {
+  max-width: 150px;
+}
+
+.telefone {
+  margin-bottom: 2px;
+}
+
+.email {
+  margin-bottom: 2px;
+}
+
+.termos {
+  margin-bottom: 0;
+}
+
+.trocas {
+  margin-top: 0;
+}
+
+.copyright {
+  font-size: 14px;
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+/********** WHATS ROLANTE ***************/
+
+#whatsapp-rolante {
+  text-align: right;
+  position: fixed;
+  /* z-index: 10000; */
+  bottom: 10px;
+  right: 0px;
+}
+
+/********** PC ***************/
+
+@media (min-width: 768px) {
+  .botao-whats {
+    width: 20%;
+  }
+}
+
+/********** MOBILE ***************/
+
+@media (max-width: 768px) {
+  .botao-whats {
+    width: 15%;
+  }
+
+  .titulo-principal {
+    text-align: center;
+  }
+}
+
+@media (max-width: 584px) {
+  .video {
+    background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/fundo_mobile_03-05-08-11.webp);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .testimonial img {
+    max-width: 100%;
+  }
+
+  .topo {
+    background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/fundo_mobile_01.webp);
+  }
+
+  .o-que-e,
+  .carrossel,
+  .garantia {
+    background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/fundo_mobile_02-06-10.webp);
+  }
+
+  .como-claregold,
+  .video,
+  .resultados,
+  .kits {
+    background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/fundo_mobile_03-05-08-11.webp);
+  }
+
+  .depoimentos{
+    background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/fundo_mobile_07-09.webp);
+  }
+
+  .anvisa{
+    background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/fundo_mobile_03-05-08-11.webp);
+  }
+
+  .como-claregold.conheca, .ebook {
+    background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/fundo_mobile_02-06-10.webp);
+  }
+}
