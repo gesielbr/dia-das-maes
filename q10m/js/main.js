@@ -1,11 +1,15 @@
 // CONTADOR DIAS E PRODUTOS
 // Obtém a data/hora atual
+//HORA E DATA ATUAL
 var data = new Date();
-// Guarda cada pedaço em uma variável
-var dia = data.getDate(); // 1-31
-var mes = data.getMonth(); // 0-11 (zero=janeiro)
-var ano4 = data.getFullYear(); // 4 dígitos
-var str_data = dia + "/" + (mes + 1) + "/" + ano4;
+var dia = (data.getDate() < 9 ? "0" : "") + data.getDate();
+var mes = (data.getMonth() < 9 ? "0" : "") + (data.getMonth() + 1);
+var ano = data.getFullYear();
+var dia_atual = dia + "/" + mes + "/" + ano;
+
+$(document).ready(function () {
+  $(".data").append(dia_atual);
+});
 
 //Número Aleatório
 var random = function (start, end) {
@@ -20,22 +24,22 @@ $(document).ready(function () {
 
 // CONTADOR
 $(document).ready(function () {
-  var timer2 = "20:00";
+  var timer1 = "20:00";
   var interval = setInterval(function () {
-    var timer = timer2.split(":");
+    var timer = timer1.split(":");
     var minutos = parseInt(timer[0], 10);
     var segundos = parseInt(timer[1], 10);
     --segundos;
     minutos = segundos < 0 ? --minutos : minutos;
     segundos = segundos < 0 ? 59 : segundos;
     segundos = segundos < 10 ? "0" + segundos : segundos;
-    $("#min").html(minutos);
-    $("#seg").html(segundos);
+    $(".min").html(minutos);
+    $(".seg").html(segundos);
     $(".countdown").html(minutos + ":" + segundos);
     if (minutos < 0) clearInterval(interval);
     //check if both minutos and segundos are 0
     if (segundos <= 0 && minutos <= 0) clearInterval(interval);
-    timer2 = minutos + ":" + segundos;
+    timer1 = minutos + ":" + segundos;
   }, 1000);
 });
 

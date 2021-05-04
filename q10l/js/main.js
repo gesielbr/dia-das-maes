@@ -1,7 +1,6 @@
 // CONTADOR DIAS E PRODUTOS
 //HORA E DATA ATUAL
 var data = new Date();
-
 var dia = (data.getDate() < 9 ? "0" : "") + data.getDate();
 var mes = (data.getMonth() < 9 ? "0" : "") + (data.getMonth() + 1);
 var ano = data.getFullYear();
