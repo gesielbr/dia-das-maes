@@ -2,12 +2,17 @@
 
 // Obtém a data/hora atual
 var data = new Date();
-
 // Guarda cada pedaço em uma variável
 var dia = data.getDate(); // 1-31
 var mes = data.getMonth(); // 0-11 (zero=janeiro)
 var ano4 = data.getFullYear(); // 4 dígitos
-var dia_atual = dia + "/" + (mes + 1) + "/" + ano4;
+var str_data =
+  dia +
+  "/" +
+  (data.getMonth() < 9 ? "0" : "") +
+  (data.getMonth() + 1) +
+  "/" +
+  ano4;
 
 //Número Aleatório
 var random = function (start, end) {
@@ -16,7 +21,7 @@ var random = function (start, end) {
 var quantidadeAleatoria = random(15, 25);
 
 $(document).ready(function () {
-  $(".data").append(dia_atual);
+  $(".data").append(str_data);
   $("#p0").append(quantidadeAleatoria);
 });
 
@@ -43,12 +48,12 @@ $(document).ready(function () {
 
 //  OWL START
 $(function () {
-    $("#customers-testimonial").owlCarousel({
-      items: 1,
-      autoPlay: true,
-      slideSpeed: 2000,
-      smartSpeed: 250,
-      look: true,
-      autoPlayHoverPause: true,
-    });
+  $("#customers-testimonial").owlCarousel({
+    items: 1,
+    autoPlay: true,
+    slideSpeed: 2000,
+    smartSpeed: 250,
+    look: true,
+    autoPlayHoverPause: true,
   });
+});
