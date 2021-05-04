@@ -1,18 +1,16 @@
 // CONTADOR DIAS E PRODUTOS
 
-// Obtém a data/hora atual
+//HORA E DATA ATUAL
 var data = new Date();
-// Guarda cada pedaço em uma variável
-var dia = data.getDate(); // 1-31
-var mes = data.getMonth(); // 0-11 (zero=janeiro)
-var ano4 = data.getFullYear(); // 4 dígitos
-var str_data =
-  dia +
-  "/" +
-  (data.getMonth() < 9 ? "0" : "") +
-  (data.getMonth() + 1) +
-  "/" +
-  ano4;
+
+var dia = (data.getDate() < 9 ? "0" : "") + data.getDate();
+var mes = (data.getMonth() < 9 ? "0" : "") + (data.getMonth() + 1);
+var ano = data.getFullYear();
+var dia_atual = dia + "/" + mes + "/" + ano;
+
+$(document).ready(function () {
+  $(".data").append(dia_atual);
+});
 
 //Número Aleatório
 var random = function (start, end) {
