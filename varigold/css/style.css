@@ -1,0 +1,475 @@
+* {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+  box-shadow: unset !important;
+}
+
+.btn.focus,
+.btn:focus {
+  outline: unset !important;
+  box-shadow: unset !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+a {
+  color: unset !important;
+  text-decoration: none !important;
+  background-color: transparent !important;
+}
+
+.topo {
+  background-color: #000000;
+  padding: 0.55rem 0 0.55rem;
+}
+
+.botao-topo {
+  border-radius: 5px;
+  border: 2px solid #61ce70;
+  box-shadow: 0px 10px 19px 1px rgba(0, 0, 0, 0.3);
+  max-width: 300px;
+  color: #ffffff;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #61ce70;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.destaque {
+  background-image: url(../img/banner_varigold_desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 440px;
+  padding-bottom: 2rem;
+}
+
+/*** AVISO */
+
+.aviso {
+  background-color: #f2ce1b;
+  padding: 1.3rem 0 0;
+  color: #000000;
+}
+
+.aviso h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: clamp(16px, 3vw, 28px);
+}
+
+.aviso p {
+  font-size: clamp(16px, 3vw, 22px);
+}
+
+.aviso p span {
+  font-weight: bold;
+}
+
+.aviso .horario {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 100%;
+}
+
+.aviso .oferta-expira {
+  text-transform: uppercase;
+  line-height: 100%;
+  font-weight: bold;
+}
+/*** RESTAM TANTOS FRASCOS */
+
+.restam-tantos-frascos {
+  padding: 1rem 0 1rem;
+  color: #000000;
+  background-color: #efefef;
+}
+
+.restam-tantos-frascos .quantidade-frascos-disponiveis {
+  margin: 0;
+  padding: 0;
+  font-size: clamp(11px, 3vw, 18px);
+  line-height: 1em;
+}
+
+.restam-tantos-frascos .quantidade-frascos-disponiveis:last-child {
+  padding-top: 4px;
+}
+
+/***** CARDS *******/
+
+.kits {
+  background-color: #f9f9f9;
+  padding: 1rem 0 3rem;
+}
+
+.kits h2 {
+  color: #f9b133;
+  font-size: 28px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-style: normal;
+  line-height: 1.1em;
+  padding-bottom: 1rem;
+}
+
+/*** CARD DESTAQUE */
+
+.card-destaque .card-cor-fundo-kits {
+  border: 2px solid #f9b133;
+}
+
+/* .card-destaque .de-por {
+  color: #ffffff;
+}
+
+.card-destaque .valor {
+  color: #ffffff;
+}
+
+.card-destaque .titulo-kits {
+  color: #ffffff;
+}
+
+.card-destaque .botao-topo {
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+  color: #8b1000;
+}
+
+.card-destaque .card-text-mais-vendidos {
+  color: #ffffff;
+} */
+
+.card-destaque .descontos-cards {
+  background-color: #f9b133;
+  /* ATENÇÃO */
+}
+
+.card-destaque .descontos-cards {
+  color: #000000;
+  font-weight: bold;
+}
+
+.card-text-mais-vendidos {
+  margin-bottom: 10px;
+}
+
+.card-destaque .frete {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.frete {
+  font-size: 20px;
+  color: #8b1000;
+  font-weight: bold;
+}
+
+.card-cor-fundo-kits {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.descontos-cards {
+  color: #000000;
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 0 10px;
+  margin-top: -40px;
+  background-color: #f2ce1b;
+}
+
+.titulo-kits {
+  color: #000000;
+  font-family: "Roboto", Sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.de-por {
+  text-decoration: line-through;
+  color: red;
+}
+
+.por-apenas {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.valor {
+  color: #61ce70;
+  font-family: "Roboto", Sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.seta-esquerda {
+  transform: rotate(40deg);
+}
+
+.seta-direita {
+  transform: rotate(320deg);
+}
+
+.blinking {
+  animation: opacity 1.5s ease-in-out infinite;
+  opacity: 1;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 1;
+  }
+  /* 50% {
+	  opacity: 0.5;
+	} */
+  100% {
+    opacity: 0;
+  }
+}
+
+/**** CONTADOR ****/
+
+#min,
+#min2 {
+  font-size: 42px;
+  font-weight: bold;
+  margin: 10px 0 0;
+  line-height: 30px;
+}
+
+#seg,
+#seg2 {
+  font-size: 42px;
+  font-weight: bold;
+  margin: 10px 0 0;
+  line-height: 30px;
+}
+
+.quadrado {
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+  text-align: center;
+  background-color: #f9b133;
+  color: #ffffff;
+  vertical-align: middle;
+  position: relative;
+}
+
+.min-e-segundo .quadrado:nth-child(2) {
+  margin-right: 0;
+}
+
+.conteudo-square {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.conteudo-square p:nth-child(2) {
+  margin-bottom: 0;
+}
+
+/***** PERGUNSTAS FREQUENTES *******/
+.perguntas-frequentes {
+  font-family: "Roboto", sans-serif;
+  padding: 4rem 0 0;
+  background-color: #f9f9f9;
+  background-image: url(../img/bg-perguntas-varigold.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+}
+
+.perguntas-frequentes h2 {
+  font-size: clamp(20px, 3vw, 30px);
+  line-height: clamp(26px, 3vw, 36px);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/***** ACORDION *******/
+
+.btn-link {
+  width: 100%;
+  color: #000000 !important;
+  font-weight: bold !important;
+  text-align: left !important;
+  text-decoration: none !important;
+}
+
+.btn-link:after {
+  content: "\2212";
+  width: 35px;
+  font-size: 25px;
+  text-align: center;
+  right: 5px;
+  top: 5px;
+  position: absolute;
+  /* background-color: #e8eeff; */
+  color: #f9b133;
+}
+
+.bordas-accordion {
+  border: 1px solid #f9b133;
+  border-bottom: 0;
+  border-radius: 0;
+}
+
+.bordas-accordion:first-child {
+  border-top: 1px solid #f9b133 !important;
+}
+
+.bordas-accordion:last-child {
+  border-bottom: 1px solid #f9b133 !important;
+}
+
+.accordion {
+  background-color: none !important;
+  border: none !important;
+  background-color: #ffffff !important;
+}
+
+.btn-link.collapsed:after {
+  content: "\002B";
+  color: #f9b133;
+}
+
+.conteudo-acordion {
+  background-color: #f9f9f9 !important;
+}
+
+/********** SELOS ************/
+
+.selos {
+  padding: 2rem 0 2rem;
+}
+
+/********** RODAPE ************/
+
+#rodape {
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 2rem 0 1rem;
+}
+
+#rodape h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.img-pagamento {
+  width: 180px;
+}
+
+.img-whats {
+  width: 200px;
+}
+
+.img-correios {
+  width: 150px;
+}
+
+.telefone {
+  margin-bottom: 2px;
+}
+
+.email {
+  margin-bottom: 2px;
+}
+
+.termos {
+  margin-bottom: 0;
+  color: #f9b133;
+  font-weight: bold;
+}
+
+.trocas {
+  margin-top: 0;
+  color: #f9b133;
+  font-weight: bold;
+}
+
+.copyright {
+  font-size: 14px;
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #f2ce1b;
+  color: #000000;
+  padding: 2rem 0 2rem;
+}
+
+/********** WHATS ROLANTE ***************/
+
+#whatsapp-rolante {
+  text-align: right;
+  position: fixed;
+  /* z-index: 10000; */
+  bottom: 10px;
+  right: 0px;
+}
+
+/********** PC ***************/
+
+@media (min-width: 768px) {
+  .botao-whats {
+    width: 20%;
+  }
+}
+
+/********** MOBILE ***************/
+
+@media (max-width: 768px) {
+  .botao-whats {
+    width: 15%;
+  }
+}
+
+@media (max-width: 584px) {
+  .botao-topo {
+    font-size: 20px;
+  }
+  .topo img {
+    max-width: 80px;
+  }
+
+  .kits .campeao {
+    max-width: 150px;
+  }
+  .valor {
+    font-size: 30px;
+  }
+
+  .banner-mobile {
+    background-image: url(../img/fundo_mobile.png);
+    background-size: cover;
+    background-position: center;
+  }
+}
