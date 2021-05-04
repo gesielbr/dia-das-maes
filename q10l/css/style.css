@@ -417,18 +417,16 @@ a {
   margin-bottom: 20px;
 }
 
-.img-rodape {
-  width: 100%;
-  max-width: 180px;
+.img-pagamento {
+  width: 180px;
 }
 
-.whats {
-  width: 100%;
-  max-width: 200px;
+.img-whats {
+  width: 200px;
 }
 
-.correios {
-  max-width: 150px;
+.img-correios {
+  width: 150px;
 }
 
 .telefone {
