@@ -453,10 +453,14 @@ a {
 
 .termos {
   margin-bottom: 0;
+  color: #890100;
+  font-weight: bold;
 }
 
 .trocas {
   margin-top: 0;
+  color: #890100;
+  font-weight: bold;
 }
 
 .copyright {
