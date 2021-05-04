@@ -537,4 +537,10 @@ a {
   .valor {
     font-size: 30px;
   }
+
+  .banner-mobile {
+    background-image: url(../img/fundo_mobile.png);
+    background-size: cover;
+    background-position: center;
+  }
 }
