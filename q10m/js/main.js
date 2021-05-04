@@ -1,23 +1,21 @@
-// CONTADOR DIAS E PRODUTOS
-// Obtém a data/hora atual
-//HORA E DATA ATUAL
-var data = new Date();
-var dia = (data.getDate() < 9 ? "0" : "") + data.getDate();
-var mes = (data.getMonth() < 9 ? "0" : "") + (data.getMonth() + 1);
-var ano = data.getFullYear();
-var dia_atual = dia + "/" + mes + "/" + ano;
-
 $(document).ready(function () {
-  $(".data").append(dia_atual);
-});
+  // CONTADOR DIAS E PRODUTOS
+  //HORA E DATA ATUAL
+  var data = new Date();
+  var dia = (data.getDate() < 9 ? "0" : "") + data.getDate();
+  var mes = (data.getMonth() < 9 ? "0" : "") + (data.getMonth() + 1);
+  var ano = data.getFullYear();
+  var dia_atual = dia + "/" + mes + "/" + ano;
 
-//Número Aleatório
-var random = function (start, end) {
-  return Math.floor(Math.random() * (end - start + 1) + start);
-};
-var quantidadeAleatoria = random(15, 25);
+  $(document).ready(function () {
+    $(".data").append(dia_atual);
+  });
 
-$(document).ready(function () {
+  //Número Aleatório
+  var random = function (start, end) {
+    return Math.floor(Math.random() * (end - start + 1) + start);
+  };
+  var quantidadeAleatoria = random(15, 25);
   $(".data").append(str_data);
   $("#p0").append(quantidadeAleatoria);
 });

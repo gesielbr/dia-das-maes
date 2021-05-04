@@ -1,3 +1,4 @@
+$(document).ready(function () {
 // CONTADOR DIAS E PRODUTOS
 //HORA E DATA ATUAL
 var data = new Date();
@@ -15,8 +16,6 @@ var random = function (start, end) {
   return Math.floor(Math.random() * (end - start + 1) + start);
 };
 var quantidadeAleatoria = random(15, 25);
-
-$(document).ready(function () {
   $(".data").append(str_data);
   $("#p0").append(quantidadeAleatoria);
 });

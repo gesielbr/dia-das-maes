@@ -433,13 +433,6 @@ a {
   padding: 2rem 0 2rem;
 }
 
-.selos img {
-  width: 100%;
-  max-width: 220px;
-  margin: 0 auto 20px;
-  display: block;
-}
-
 /********** RODAPE ************/
 
 #rodape {
@@ -480,10 +473,14 @@ a {
 
 .termos {
   margin-bottom: 0;
+  color: #890100;
+  font-weight: bold;
 }
 
 .trocas {
   margin-top: 0;
+  color: #890100;
+  font-weight: bold;
 }
 
 .copyright {
