@@ -514,4 +514,9 @@ a {
     background-size: cover;
     background-position: center;
   }
+
+  .kits h2:before {    
+    top: 51px;
+    width: 40%;
+  }
 }
