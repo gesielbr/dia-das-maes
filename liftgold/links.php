@@ -31,9 +31,9 @@ if (isset($_GET ['id'])) {
 
 $parametros = '?src=' . $src . '&utm_source=' . $utm_source . '&utm_content=' . $utm_content . '&transport=1';
 
-$kit3 = 'https://app.monetizze.com.br/DSH61003' . $parametros;
-$kit2 = 'https://app.monetizze.com.br/DWC61002' . $parametros;
-$kit1 = 'https://app.monetizze.com.br/DFA48855' . $parametros;
+$kit3 = 'https://app.monetizze.com.br/DQA50946' . $parametros;
+$kit2 = 'https://app.monetizze.com.br/DAX49541' . $parametros;
+$kit1 = 'https://app.monetizze.com.br/DZM37276' . $parametros;
 
 $pixel = '';
 $google = 'GTM-WQ375Q8';

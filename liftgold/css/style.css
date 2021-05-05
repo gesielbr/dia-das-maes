@@ -60,9 +60,10 @@ a {
 /*** AVISO */
 
 .aviso {
-  background-color: #F9B332;
+  background-color: #fde069;
   padding: 1.3rem 0 0;
   color: #000000;
+  /* color: #B9A171; */
 }
 
 .aviso h4 {
