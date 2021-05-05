@@ -260,6 +260,7 @@ a {
 /*** VIDEOS ***/
 .videos {
   padding: 2rem 0 2rem;
+  background-color: #f9f9f9;
 }
 
 .videos h2 {
@@ -267,6 +268,36 @@ a {
   line-height: clamp(20px, 3vw, 36px);
   font-weight: bold;
   text-transform: uppercase;
+}
+
+/*** DESTAQUE PRETO ***/
+
+.destaque-preto {
+  background-color: #000000;
+  padding: 1.3rem 0 1.3rem;
+}
+
+.destaque-preto h2 {
+  color: #ffffff;
+  font-size: clamp(22px, 4vw, 30px);
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/*** DEPOIMENTOS ***/
+.depoimentos {
+  background-color: #efefef;
+  padding: 2rem 2rem 2rem;
+}
+
+.depoimentos h2 {
+  color: #5a5a5a;
+  font-weight: bold;
+  font-size: clamp(22px, 4vw, 38px);
+}
+
+.depoimentos p {
+  color: #5a5a5a;
 }
 
 /**** CONTADOR ****/
