@@ -3,6 +3,8 @@
 
 * {
   font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 html {
@@ -88,7 +90,7 @@ a:hover {
   line-height: 100%;
 }
 
-.aviso .oferta-expira{
+.aviso .oferta-expira {
   text-transform: uppercase;
   line-height: 100%;
   font-weight: bold;
@@ -225,6 +227,17 @@ a:hover {
 
 .kits h2 span {
   color: #7c3677;
+}
+
+.kits h2:before {
+  content: "";
+  position: absolute;
+  top: 46px;
+  left: 50%;
+  width: 25%;
+  height: 2px;
+  background: #000000;
+  transform: translateX(-50%);
 }
 
 .kits h4 {
@@ -604,5 +617,9 @@ a:hover {
     background-image: url(../img/banner_claregold_mobile.png);
     background-size: cover;
     background-position: center;
+  }
+
+  .kits h2:before {
+    top: 52px;
   }
 }
