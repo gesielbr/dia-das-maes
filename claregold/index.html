@@ -99,6 +99,7 @@
       );
       fbq("init", "<?php echo $pixel ?>");
       fbq("track", "PageView");
+      fbq("track", "ViewContent");
     </script>
 
     <noscript
@@ -274,7 +275,7 @@
           <div class="col-md-12">
             <h2 class="mb-4"><span>Escolha agora mesmo o</span> seu kit!</h2>
             <p class="mt-4">
-              Apr4oveite essa chance única de garantir o clareador de manchas
+              Aproveite essa chance única de garantir o clareador de manchas
               mais eficaz do mercado, o ClareGold!
             </p>
           </div>
@@ -572,7 +573,7 @@
     <!-- END KITS -->
 
     <!-- START EBOOK -->
-    <div class="ebook">
+    <!-- <div class="ebook">
       <div class="container">
         <div class="row d-flex justify-content-center align-items-center">
           <div class="col-md-6 text-center order-2 order-sm-1">
@@ -598,7 +599,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- END EBOOK -->
 
     <!-- START VIDEO -->
