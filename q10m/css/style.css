@@ -545,6 +545,7 @@ a {
   }
 
   .kits h2::before {
-    top: 30px;
+    top: 51px;
+    width: 35%;
   }
 }
