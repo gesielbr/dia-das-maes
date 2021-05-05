@@ -595,6 +595,15 @@
             <div class="embed-responsive embed-responsive-16by9">
               <iframe
                 class="embed-responsive-item"
+                src="https://www.youtube.com/embed/ZLQmRdg9aWE"
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-md-4 pb-3">
+            <!-- 16:9 aspect ratio -->
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe
+                class="embed-responsive-item"
                 src="https://www.youtube.com/embed/DtByRZyLF4I"
               ></iframe>
             </div>
@@ -605,15 +614,6 @@
               <iframe
                 class="embed-responsive-item"
                 src="https://www.youtube.com/embed/j3JWkF9_Dtw"
-              ></iframe>
-            </div>
-          </div>
-          <div class="col-md-4 pb-3">
-            <!-- 16:9 aspect ratio -->
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe
-                class="embed-responsive-item"
-                src="https://www.youtube.com/embed/SdaIRMNUBt8"
               ></iframe>
             </div>
           </div>
