@@ -203,7 +203,7 @@ a {
   margin: 0 auto;
   padding: 10px 0 10px;
   margin-top: -40px;
-  background-color: #f2ce1b;
+  background-color: #fde069;
 }
 
 .titulo-kits {
@@ -267,27 +267,6 @@ a {
   line-height: clamp(20px, 3vw, 36px);
   font-weight: bold;
   text-transform: uppercase;
-}
-
-/*** COMBATER-MA-CIRCULACAO ***/
-.combater-ma-circulacao {
-  background-image: url(../img/beneficios.jpg);
-  padding: 2rem 0;
-}
-
-.beneficios {
-  background-color: #ffffff;
-  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
-}
-
-.combater-ma-circulacao h2 {
-  font-size: clamp(20px, 3vw, 36px);
-    line-height: clamp(20px, 3vw, 36px);
-}
-
-.combater-ma-circulacao h3 {
-  font-size: clamp(18px, 3vw, 20px);
-  line-height: clamp(22px, 3vw, 24px);
 }
 
 /**** CONTADOR ****/
