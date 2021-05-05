@@ -36,7 +36,7 @@ $kit2 = 'https://app.monetizze.com.br/DAX49541' . $parametros;
 $kit1 = 'https://app.monetizze.com.br/DZM37276' . $parametros;
 
 $pixel = '';
-$google = 'GTM-WQ375Q8';
+$google = 'GTM-5JKJZNF';
 $paginaembranco = '';
 
 ?>
