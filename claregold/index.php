@@ -15,11 +15,7 @@
     <title>CLAREGOLD OFERTA</title>
 
     <!-- FAV ICON -->
-    <link
-      rel="icon"
-      href=""
-      sizes="32x32"
-    />
+    <link rel="icon" href="img/favicon.ico" sizes="32x32" />
 
     <!-- FONTAWESOME -->
     <link
@@ -62,7 +58,7 @@
     />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css?v=4" />
+    <link rel="stylesheet" href="css/style.css?v=1" />
 
     <!-- ROBOTO FONT -->
     <link
@@ -159,9 +155,9 @@
         >
           <div class="col-md-12">
             <img
-              width="150"
+              width="100"
               class="img-fluid"
-              src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/logo_claregold.webp"
+              src="img/logo_claregold.webp"
               alt=""
               srcset=""
             />
@@ -171,31 +167,99 @@
     </section>
     <!-- END LOGO -->
 
+    <!-- START BANNER DESK -->
+    <a href="#kits">
+      <section class="destaque d-none d-sm-block"></section>
+    </a>
+    <!-- END BANNER -->
+
+    <!-- START BANNER MOBILE  -->
+    <section class="banner-mobile d-block d-sm-none">
+      <div class="container">
+        <a href="#kits">
+          <div
+            class="row d-flex justify-content-center align-items-center text-center"
+          >
+            <div class="col-md-12">
+              <img
+                width="260"
+                class="img-fluid py-2"
+                src="img/logo.png"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="col-md-12">
+              <img
+                width="150"
+                class="img-fluid py-1"
+                src="img/compre_leve.png"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="col-md-12">
+              <img
+                width="280"
+                class="img-fluid py-1"
+                src="img/kit.png"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="col-md-12">
+              <img
+                class="img-fluid py-1"
+                src="img/preco.png"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="col-md-12">
+              <img
+                class="img-fluid pb-2"
+                src="img/botao.png"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="col-md-12">
+              <img
+                class="img-fluid py-2"
+                src="img/icones.png"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+    <!-- END TOPO NOVO  -->
+
     <!-- START AVISO -->
     <section class="aviso">
       <div class="container">
-        <!-- <div class="row text-center">
-          <div class="col-md-12 pb-3">
-            <img
-              class="img-fluid"
-              src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/aviso.webp"
-              alt=""
-              srcset=""
-            />
-          </div>
-        </div> -->
         <div class="row text-center">
           <div class="col-md-12 pb-2">
-            <h4>Estoque disponível por pouco tempo!!</h4>
+            <h4 class="mb-0">Estoque disponível por pouco tempo!!</h4>
           </div>
         </div>
         <div class="row text-center">
           <div class="col-md-12 pb-2">
-            <p>
+            <p class="mb-0">
               Devido a grande demanda, restaram apenas
               <span> ALGUMAS UNIDADES DISPONÍVEIS </span> em nosso estoque.
               Garanta o seu <span>AGORA</span>, pois deve acabar HOJE
               <span class="data"></span>.
+            </p>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-12">
+            <p class="oferta-expira mb-0">Oferta expira em</p>
+            <p class="horario">
+              <span class="min">15</span>:<span class="seg">50</span>
             </p>
           </div>
         </div>
@@ -204,13 +268,13 @@
     <!-- END AVISO -->
 
     <!-- START KITS -->
-    <section class="kits">
+    <section class="kits" id="kits">
       <div class="container">
         <div class="row text-center pb-3">
           <div class="col-md-12">
-            <h2><span>Escolha agora mesmo o</span> seu kit!</h2>
-            <p>
-              Aproveite essa chance única de garantir o clareador de manchas
+            <h2 class="mb-4"><span>Escolha agora mesmo o</span> seu kit!</h2>
+            <p class="mt-4">
+              Apr4oveite essa chance única de garantir o clareador de manchas
               mais eficaz do mercado, o ClareGold!
             </p>
           </div>
@@ -220,7 +284,7 @@
             <div class="row justify-content-center">
               <!-- KIT 3 -->
               <div class="col-lg-4 pb-5 pb-lg-0">
-                <a href="<?php echo $kit3_claregold_oferta ?>">
+                <a href="<?php echo $kit3_claregold_oferta_maes ?>">
                   <div class="card">
                     <div class="card-body card-cor-fundo-kits text-center">
                       <div
@@ -229,7 +293,7 @@
                         <div class="col-2 col-md-2 bg-roxo py-2">
                           <div class="row no-gutters">
                             <div class="col-md-12">
-                              <p class="percentual-desconto">+10%</p>
+                              <p class="percentual-desconto">+57%</p>
                             </div>
                           </div>
                           <div class="row no-gutters">
@@ -262,12 +326,12 @@
                         </div>
                       </div>
                       <h3 class="titulo-kits">
-                        Compre 3 e <span>ganhe +2 grátis</span>
+                        Compre 3<br />
+                        <span>e ganhe +3 grátis +1 Body Gold</span>
                       </h3>
                       <img
-                        width="90%"
                         class="img-fluid py-2"
-                        src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/kit3.jpg"
+                        src="img/claregold_kit03.png"
                         alt="Card image cap"
                       />
                       <!-- SETAS E VALORES -->
@@ -277,25 +341,25 @@
                         <div class="col-3 text-right">
                           <img
                             class="img-fluid blinking seta-esquerda"
-                            src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/seta_esquerda.webp"
+                            src="img/seta_esquerda.webp"
                             alt=""
                           />
                         </div>
                         <div class="col-6">
                           <p class="informacoes">
-                            <span class="de-por">De R$ 347,70</span><br />
-                            <span class="por">Por <span>R$ 312,93</span></span
+                            <span class="de-por">De R$ 799,60</span><br />
+                            <span class="por">Por <span>R$ 347,70</span></span
                             ><br />
                             <span class="por-apenas"
                               >ou em <span>até 12x</span> de</span
                             ><br />
-                            <span class="valor">R$ 28,16</span>
+                            <span class="valor">R$ 38,50</span>
                           </p>
                         </div>
                         <div class="col-3 text-left">
                           <img
                             class="img-fluid blinking seta-direita"
-                            src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/seta_direita.webp"
+                            src="img/seta_direita.webp"
                             alt=""
                           />
                         </div>
@@ -314,8 +378,8 @@
                       <div class="row">
                         <div class="col-md-12">
                           <p>
-                            <span class="contem">Contém:</span> 5 frascos de
-                            ClareGold
+                            <span class="contem">Contém:</span> 6 frascos de
+                            ClareGold + 1 frasco de Body Gold
                           </p>
                         </div>
                       </div>
@@ -325,7 +389,7 @@
               </div>
               <!-- KIT 2 -->
               <div class="col-lg-4 pb-5 pb-lg-0">
-                <a href="<?php echo $kit2_claregold_oferta ?>">
+                <a href="<?php echo $kit2_claregold_oferta_maes ?>">
                   <div class="card">
                     <div class="card-body card-cor-fundo-kits text-center">
                       <div
@@ -334,7 +398,7 @@
                         <div class="col-2 col-md-2 bg-roxo py-2">
                           <div class="row no-gutters">
                             <div class="col-md-12">
-                              <p class="percentual-desconto">+10%</p>
+                              <p class="percentual-desconto">+33%</p>
                             </div>
                           </div>
                           <div class="row no-gutters">
@@ -352,12 +416,12 @@
                         </div>
                       </div>
                       <h3 class="titulo-kits">
-                        Compre 2 e <span>ganhe +1 grátis</span>
+                        Compre 2 <br />
+                        <span>e ganhe +1 grátis +1 Body Gold</span>
                       </h3>
                       <img
-                        width="90%"
                         class="img-fluid py-2"
-                        src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/kit2.jpg"
+                        src="img/claregold_kit02.png"
                         alt="Card image cap"
                       />
                       <!-- SETAS E VALORES -->
@@ -367,25 +431,25 @@
                         <div class="col-3 text-right">
                           <img
                             class="img-fluid blinking seta-esquerda"
-                            src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/seta_esquerda.webp"
+                            src="img/seta_esquerda.webp"
                             alt=""
                           />
                         </div>
                         <div class="col-6">
                           <p class="informacoes">
-                            <span class="de-por">De R$ 267,80</span><br />
-                            <span class="por">Por <span>R$ 241,02</span></span
+                            <span class="de-por">De R$ 399,80</span><br />
+                            <span class="por">Por <span>R$ 267,80</span></span
                             ><br />
                             <span class="por-apenas"
                               >ou em <span>até 12x</span> de</span
                             ><br />
-                            <span class="valor">R$ 22,16</span>
+                            <span class="valor">R$ 29,66</span>
                           </p>
                         </div>
                         <div class="col-3 text-left">
                           <img
                             class="img-fluid blinking seta-direita"
-                            src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/seta_direita.webp"
+                            src="img/seta_direita.webp"
                             alt=""
                           />
                         </div>
@@ -405,7 +469,7 @@
                         <div class="col-md-12">
                           <p>
                             <span class="contem">Contém:</span> 3 frascos de
-                            ClareGold
+                            ClareGold + 1 frasco de Body Gold
                           </p>
                         </div>
                       </div>
@@ -415,7 +479,7 @@
               </div>
               <!-- KIT 1 -->
               <div class="col-lg-4">
-                <a href="<?php echo $kit1_claregold_oferta ?>">
+                <a href="<?php echo $kit1_claregold_oferta_maes ?>">
                   <div class="card">
                     <div class="card-body card-cor-fundo-kits text-center">
                       <div
@@ -424,7 +488,7 @@
                         <div class="col-2 col-md-2 bg-roxo py-2">
                           <div class="row no-gutters">
                             <div class="col-md-12">
-                              <p class="percentual-desconto">+10%</p>
+                              <p class="percentual-desconto">+26%</p>
                             </div>
                           </div>
                           <div class="row no-gutters">
@@ -443,9 +507,8 @@
                       </div>
                       <h3 class="titulo-kits">Leve 1 Claregold</h3>
                       <img
-                        width="90%"
-                        class="img-fluid py-2"
-                        src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/kit1.jpg"
+                        class="img-fluid py-2 mt-4"
+                        src="img/claregold_kit01.png"
                         alt="Card image cap"
                       />
                       <!-- SETAS E VALORES -->
@@ -455,25 +518,25 @@
                         <div class="col-3 text-right">
                           <img
                             class="img-fluid blinking seta-esquerda"
-                            src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/seta_esquerda.webp"
+                            src="img/seta_esquerda.webp"
                             alt=""
                           />
                         </div>
                         <div class="col-6">
                           <p class="informacoes">
-                            <span class="de-por">De R$147,90</span><br />
-                            <span class="por">Por <span>R$ 133,11</span></span
+                            <span class="de-por">De R$199,80</span><br />
+                            <span class="por">Por <span>R$ 147,90</span></span
                             ><br />
                             <span class="por-apenas"
                               >ou em <span>até 6x</span> de</span
                             ><br />
-                            <span class="valor">R$ 26,35</span>
+                            <span class="valor">R$ 28,34</span>
                           </p>
                         </div>
                         <div class="col-3 text-left">
                           <img
                             class="img-fluid blinking seta-direita"
-                            src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/seta_direita.webp"
+                            src="img/seta_direita.webp"
                             alt=""
                           />
                         </div>
@@ -489,7 +552,7 @@
                           </button>
                         </div>
                       </div>
-                      <div class="row">
+                      <div class="row pb-4">
                         <div class="col-md-12">
                           <p>
                             <span class="contem">Contém:</span> 1 frasco de
@@ -516,7 +579,7 @@
             <img
               width="450"
               class="img-fluid pb-4 pb-sm-0"
-              src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/ebook.webp"
+              src="img/ebook.webp"
               alt=""
               srcset=""
             />
@@ -605,7 +668,7 @@
           <div class="col-md-4">
             <img
               class="img-fluid pb-4 pb-sm-0"
-              src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/depoimento_01.webp"
+              src="img/depoimento_01.webp"
               alt=""
               srcset=""
             />
@@ -613,7 +676,7 @@
           <div class="col-md-4">
             <img
               class="img-fluid pb-4 pb-sm-0"
-              src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/depoimento_02.webp"
+              src="img/depoimento_02.webp"
               alt=""
               srcset=""
             />
@@ -621,7 +684,7 @@
           <div class="col-md-4">
             <img
               class="img-fluid pb-4 pb-sm-0"
-              src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/depoimento_03.webp"
+              src="img/depoimento_03.webp"
               alt=""
               srcset=""
             />
@@ -642,7 +705,7 @@
             <img
               width="300"
               class="img-fluid pb-4 pb-sm-0"
-              src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/anvisa.webp"
+              src="img/anvisa.webp"
               alt="certificado Anvisa"
               srcset=""
             />
@@ -674,7 +737,7 @@
             <img
               width="300"
               class="img-fluid pb-4 pb-sm-0"
-              src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/selo-garantia.webp"
+              src="img/selo-garantia.webp"
               alt="certificado Anvisa"
               srcset=""
             />
@@ -855,49 +918,25 @@
       <div class="container">
         <div class="row d-flex justify-content-center align-items-center">
           <div class="col-6 col-xl-2 col-lg-4 col-md-4 col-sm-4">
-            <img
-              class="img-fluid"
-              src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/selo-google.png"
-              alt=""
-            />
+            <img class="img-fluid" src="img/selo-google.png" alt="" />
           </div>
           <div class="col-6 col-xl-2 col-lg-4 col-md-4 col-sm-4">
-            <img
-              class="img-fluid"
-              src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/selo-ssh.png"
-              alt=""
-            />
+            <img class="img-fluid" src="img/selo-ssh.png" alt="" />
           </div>
           <div class="col-6 col-xl-2 col-lg-4 col-md-4 col-sm-4">
-            <img
-              class="img-fluid"
-              src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/compra-segura-triptoz.png"
-              alt=""
-            />
+            <img class="img-fluid" src="img/compra-segura-triptoz.png" alt="" />
           </div>
           <div class="col-6 col-xl-2 col-lg-4 col-md-4 col-sm-6">
-            <img
-              class="img-fluid"
-              src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/anvisa-triptoz.png"
-              alt=""
-            />
+            <img class="img-fluid" src="img/anvisa-triptoz.png" alt="" />
           </div>
           <div
             class="col-6 col-xl-2 col-lg-4 col-md-4 col-sm-6"
             style="font-size: 11px"
           >
-            <img
-              class="img-fluid"
-              src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/logo_monetizze.png"
-              alt=""
-            />
+            <img class="img-fluid" src="img/logo_monetizze.png" alt="" />
           </div>
           <div class="col-6 col-xl-2 col-lg-4 col-md-4 col-sm-12">
-            <img
-              class="img-fluid"
-              src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/selo-ggc-1.png"
-              alt=""
-            />
+            <img class="img-fluid" src="img/selo-ggc-1.png" alt="" />
           </div>
         </div>
       </div>
@@ -931,14 +970,14 @@
             <h2 class="mb-2 mb-sm-2 mb-md-3">Formas de Pagamentos</h2>
             <img
               class="img-rodape"
-              src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/pagamento.png"
+              src="img/pagamento.png"
             />
           </div>
           <div class="col-6 col-md-6 col-lg-3 col-xl-3 text-center">
             <h2 class="mb-2 mb-sm-2 mb-md-3">Formas de Entrega</h2>
             <img
               class="img-rodape correios"
-              src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/correios-pac-sedex.png"
+              src="img/correios-pac-sedex.png"
             />
           </div>
           <div class="col-12 col-md-6 col-lg-3 col-xl-3 text-center">
@@ -947,7 +986,7 @@
               href="https://api.whatsapp.com/send?phone=5551995630424&text=%20Oi,%20quero%20saber%20mais%20sobre%20o%20Claregold.%20"
               ><img
                 class="img-rodape whats"
-                src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/fale-conosco.png"
+                src="img/fale-conosco.png"
             /></a>
           </div>
           <div class="col-md-12">
@@ -971,7 +1010,7 @@
             >
               <img
                 class="botao-whats"
-                src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/oferta/whatsapp.png"
+                src="img/whatsapp.png"
               />
             </a>
           </div>
