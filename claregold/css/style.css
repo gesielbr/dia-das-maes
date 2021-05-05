@@ -229,7 +229,7 @@ a:hover {
   color: #7c3677;
 }
 
-.kits h2:before {
+.kits h2::before {
   content: "";
   position: absolute;
   top: 46px;
@@ -619,7 +619,14 @@ a:hover {
     background-position: center;
   }
 
-  .kits h2:before {
+  .kits h2::before {
+    content: "";
+    position: absolute;
     top: 52px;
+    left: 50%;
+    width: 35%;
+    height: 2px;
+    background: #000000;
+    transform: translateX(-50%);
   }
 }

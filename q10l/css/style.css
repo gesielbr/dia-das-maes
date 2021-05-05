@@ -130,7 +130,7 @@ a {
   color: #8b1000;
 }
 
-.kits h2:before {
+.kits h2::before {
   content: "";
   position: absolute;
   top: 46px;

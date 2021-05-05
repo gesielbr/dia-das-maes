@@ -125,7 +125,7 @@ a {
   text-transform: uppercase;
 }
 
-.kits h2:before {
+.kits h2::before {
   content: "";
   position: absolute;
   top: 46px;
@@ -533,5 +533,16 @@ a {
 
   .depoimentos-mobile {
     background-color: #efefef;
+  }
+
+  .kits h2::before {
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    width: 25%;
+    height: 2px;
+    background: #000000;
+    transform: translateX(-50%);
   }
 }
