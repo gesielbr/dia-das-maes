@@ -124,7 +124,7 @@ a {
   text-transform: uppercase;
 }
 
-.kits h2:before {
+.kits h2::before {
   content: "";
   position: absolute;
   top: 46px;
