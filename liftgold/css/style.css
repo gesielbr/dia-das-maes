@@ -62,7 +62,7 @@ a {
 .aviso {
   background-color: #f9d55e;
   padding: 1.3rem 0 0;
-  color: #ffffff;
+  color: #000000;
   /* color: #B9A171; */
 }
 
@@ -457,13 +457,13 @@ a {
 
 .termos {
   margin-bottom: 0;
-  color: #f9d55e;
+  color: #F9B332;
   font-weight: bold;
 }
 
 .trocas {
   margin-top: 0;
-  color: #f9d55e;
+  color: #F9B332;
   font-weight: bold;
 }
 
@@ -475,7 +475,7 @@ a {
 
 .footer {
   background-color: #f9d55e;
-  color: #ffffff;
+  color: #000000;
   padding: 2rem 0 2rem;
 }
 
