@@ -60,9 +60,9 @@ a {
 /*** AVISO */
 
 .aviso {
-  background-color: #fde069;
+  background-color: #f9d55e;
   padding: 1.3rem 0 0;
-  color: #000000;
+  color: #ffffff;
   /* color: #B9A171; */
 }
 
@@ -203,7 +203,7 @@ a {
   margin: 0 auto;
   padding: 10px 0 10px;
   margin-top: -40px;
-  background-color: #fde069;
+  background-color: #f9d55e;
 }
 
 .titulo-kits {
@@ -350,11 +350,11 @@ a {
   font-family: "Roboto", sans-serif;
   padding: 4rem 0 0;
   background-color: #f9f9f9;
-  background-image: url(../img/bg-perguntas-varigold.jpg);
+  /* background-image: url(../img/bg-perguntas-varigold.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 50px;
+  padding-top: 50px; */
 }
 
 .perguntas-frequentes h2 {
@@ -383,32 +383,32 @@ a {
   top: 5px;
   position: absolute;
   /* background-color: #e8eeff; */
-  color: #f9b133;
+  color: #cccccc;
 }
 
 .bordas-accordion {
-  border: 1px solid #f9b133;
+  border: 1px solid #cccccc;
   border-bottom: 0;
   border-radius: 0;
 }
 
 .bordas-accordion:first-child {
-  border-top: 1px solid #f9b133 !important;
+  border-top: 1px solid #cccccc !important;
 }
 
 .bordas-accordion:last-child {
-  border-bottom: 1px solid #f9b133 !important;
+  border-bottom: 1px solid #cccccc !important;
 }
 
 .accordion {
   background-color: none !important;
   border: none !important;
-  background-color: #ffffff !important;
+  background-color: #f9f9f9 !important;
 }
 
 .btn-link.collapsed:after {
   content: "\002B";
-  color: #f9b133;
+  color: #cccccc;
 }
 
 .conteudo-acordion {
@@ -457,13 +457,13 @@ a {
 
 .termos {
   margin-bottom: 0;
-  color: #f9b133;
+  color: #f9d55e;
   font-weight: bold;
 }
 
 .trocas {
   margin-top: 0;
-  color: #f9b133;
+  color: #f9d55e;
   font-weight: bold;
 }
 
@@ -474,8 +474,8 @@ a {
 }
 
 .footer {
-  background-color: #f2ce1b;
-  color: #000000;
+  background-color: #f9d55e;
+  color: #ffffff;
   padding: 2rem 0 2rem;
 }
 
