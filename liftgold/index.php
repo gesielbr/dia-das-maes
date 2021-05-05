@@ -19,7 +19,7 @@
     />
 
     <!-- TITLE -->
-    <title>VARIGOLD OFICIAL</title>
+    <title>LIFTGOLD OFICIAL</title>
 
     <!-- FAV ICON -->
     <link rel="icon" href="img/favicon.png" sizes="32x32" />
@@ -91,6 +91,7 @@
       );
       fbq("init", "<?php echo $pixel ?>");
       fbq("track", "PageView");
+      fbq("track", "ViewContent");
     </script>
 
     <noscript
@@ -149,7 +150,7 @@
             <img
               width="160"
               class="img-fluid"
-              src="img/varigold_logo.png"
+              src="img/logo_liftgold.png"
               alt=""
             />
           </div>
@@ -313,7 +314,7 @@
                       >
                       <img
                         class="img-fluid py-2"
-                        src="img/varigold_kit03.png"
+                        src="img/liftgold_kit03.png"
                         alt="Card image cap"
                       />
                       <h3 class="titulo-kits">5 meses de tratamento</h3>
@@ -362,8 +363,8 @@
                       </div>
                       <div class="row justify-content-center">
                         <p class="card-text-mais-vendidos">
-                          <b>Contém</b> 5 frascos de Varigold + 1 frasco de Body
-                          Gold + 3 E-books
+                          <b>Contém</b> 5 frascos de Lift Gold + 1 frasco de
+                          Body Gold + 3 E-books
                         </p>
                       </div>
                       <!-- FRETE GRÁTIS
@@ -391,7 +392,7 @@
                       >
                       <img
                         class="img-fluid py-2"
-                        src="img/varigold_kit02.png"
+                        src="img/liftgold_kit02.png"
                         alt="Card image cap"
                       />
                       <h3 class="titulo-kits">3 MESES DE TRATAMENTO</h3>
@@ -440,8 +441,8 @@
                       </div>
                       <div class="row justify-content-center">
                         <p class="card-text-mais-vendidos">
-                          <b>Contém</b> 3 frascos de Varigold + 1 frasco de Body
-                          Gold + 2 E-books
+                          <b>Contém</b> 3 frascos de Lift Gold + 1 frasco de
+                          Body Gold + 2 E-books
                         </p>
                       </div>
                       <!-- FRETE GRÁTIS
@@ -469,7 +470,7 @@
                       >
                       <img
                         class="img-fluid py-2"
-                        src="img/varigold_kit01.png"
+                        src="img/liftgold_kit01.png"
                         alt="Card image cap"
                       />
                       <h3 class="titulo-kits">EXPERIMENTE</h3>
@@ -517,7 +518,7 @@
                       </div>
                       <div class="row justify-content-center mb-0 mb-sm-4">
                         <p class="card-text-mais-vendidos">
-                          <b>Contém</b> 1 frasco de Varigold + 1 E-book
+                          <b>Contém</b> 1 frasco de Lift Gold + 1 E-book
                         </p>
                       </div>
                       <!-- FRETE GRÁTIS
@@ -552,7 +553,7 @@
         <div class="row text-center">
           <div class="col-md-12 pb-2">
             <p>
-              Devido a grande procura pelo creme Varigold, essa
+              Devido a grande procura pelo Sérum Lift Gold, essa
               <span>OFERTA ESPECIAL</span> só irá durar mais alguns minutos, ou
               enquanto durarem os estoques. Aproveite e Compre AGORA!
             </p>
@@ -566,63 +567,17 @@
     <section class="videos">
       <div class="container">
         <div class="row text-center">
-          <div class="col-md-12">
-            <h2>O brasil inteiro está usando</h2>
-            <p>Confira alguns vídeos e depoimentos sobre o Varigold.</p>
+          <div class="col-md-12 pb-4">
+            <h2>Lift gold o produto mais indicado por dermatologistas</h2>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4 pb-3">
+          <div class="col-md-8 pb-3 mx-auto">
             <!-- 16:9 aspect ratio -->
             <div class="embed-responsive embed-responsive-16by9">
               <iframe
                 class="embed-responsive-item"
-                src="https://www.youtube.com/embed/V3JMPhHXx64"
-              ></iframe>
-            </div>
-          </div>
-          <div class="col-md-4 pb-3">
-            <!-- 16:9 aspect ratio -->
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe
-                class="embed-responsive-item"
-                src="https://www.youtube.com/embed/zPmT02qkaOQ"
-              ></iframe>
-            </div>
-          </div>
-          <div class="col-md-4 pb-3">
-            <!-- 16:9 aspect ratio -->
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe
-                class="embed-responsive-item"
-                src="https://www.youtube.com/embed/DtByRZyLF4I"
-              ></iframe>
-            </div>
-          </div>
-          <div class="col-md-4 pb-3">
-            <!-- 16:9 aspect ratio -->
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe
-                class="embed-responsive-item"
-                src="https://www.youtube.com/embed/j3JWkF9_Dtw"
-              ></iframe>
-            </div>
-          </div>
-          <div class="col-md-4 pb-3">
-            <!-- 16:9 aspect ratio -->
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe
-                class="embed-responsive-item"
-                src="https://www.youtube.com/embed/SdaIRMNUBt8"
-              ></iframe>
-            </div>
-          </div>
-          <div class="col-md-4 pb-3">
-            <!-- 16:9 aspect ratio -->
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe
-                class="embed-responsive-item"
-                src="https://www.youtube.com/embed/HI6xtX-Jb2A"
+                src="https://www.youtube.com/embed/qFRSW8idvcg"
               ></iframe>
             </div>
           </div>
@@ -631,94 +586,101 @@
     </section>
     <!-- VIDEOS -->
 
-    <section class="combater-ma-circulacao">
+    <!-- START DESTAQUE PRETO -->
+    <section class="destaque-preto">
       <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col-md-12">
-            <h2>FEITO PARA COMBATER A MÁ CIRCULAÇÃO</h2>
-            <p>
-              Chegou ao Brasil a mais nova fórmula para driblar os incômodos
-              causados pelas varizes.
-            </p>
-          </div>
-        </div>
         <div class="row text-center">
-          <div class="col-md-3">
-            <div class="card beneficios mb-4">
-              <div class="card-body">
-                <img
-                  width="200"
-                  class="img-fluid mb-4"
-                  src="img/varizes1.png"
-                  alt=""
-                />
-                <h3>Ativa a Circulação</h3>
-                <p>
-                  Melhora o fluxo e a circulação do sangue na região das pernas.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card beneficios mb-4">
-              <div class="card-body">
-                <img
-                  width="200"
-                  class="img-fluid mb-4"
-                  src="img/varizes2.png"
-                  alt=""
-                />
-                <h3>Combate as Dores</h3>
-                <p>
-                  Melhora da circulação, aliviando dores e desconforto nas
-                  pernas.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card beneficios mb-4">
-              <div class="card-body">
-                <img
-                  width="200"
-                  class="img-fluid mb-4"
-                  src="img/varizes3.png"
-                  alt=""
-                />
-                <h3>Reduz o Inchaço</h3>
-                <p>
-                  Alivia o inchaço causado pela má circulação e retenção de
-                  líquidos.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card beneficios mb-4">
-              <div class="card-body">
-                <img
-                  width="200"
-                  class="img-fluid mb-4"
-                  src="img/varizes4.png"
-                  alt=""
-                />
-                <h3>Revitaliza as Pernas</h3>
-                <p>
-                  Combate os radicais livres, responsáveis pelo envelhecimento.
-                </p>
-              </div>
-            </div>
+          <div class="col-md-12">
+            <h2>
+              Lift gold está transformando a vida de milhares de brasileiras
+            </h2>
           </div>
         </div>
       </div>
     </section>
+    <!-- END DESTAQUE PRETO -->
+
+    <!-- START DEPOIMENTOS 1 -->
+    <div class="container depoimentos mt-4">
+      <div
+        class="row d-flex justify-content-center align-items-center depoimentos-mobile"
+      >
+        <div class="col-md-6 pb-3 pb-sm-0 pt-3 pt-sm-0">
+          <!-- 16:9 aspect ratio -->
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.youtube.com/embed/eLkmC3QHyN4"
+            ></iframe>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="pb-2">Dora Antônia - 59 anos</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p>
+                Confira no vídeo a história de Dora Antônia, uma mulher
+                batalhadora que vinha sofrendo com o envelhecimento, e com a
+                ajuda de sua neta, encontrou o Lift Gold e superou o falecimento
+                de seu marido, a depressão e os sinais da idade.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END DEPOIMENTOS 1 -->
+
+    <!-- START DEPOIMENTOS 2 -->
+    <div class="container depoimentos my-4">
+      <div
+        class="row d-flex justify-content-center align-items-center depoimentos-mobile"
+      >
+        <div class="col-md-6 order-2 order-sm-1">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="pb-2">Edilene Recomenda</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p>
+                Lift Gold auxilia na redução dos radicais livres responsáveis
+                pelo surgimento de rugas e evita a formação das linhas de
+                expressão.
+              </p>
+              <p>
+                Além de atuar na hidratação, dando maciez, elasticidade e
+                tonicidade a pele. Aumentando a produção natural de colágeno,
+                proporcionando firmeza e suavização das áreas escuras ao redor
+                dos olhos.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 pb-3 pb-sm-0 pt-3 pt-sm-0 order-1 order-sm-2">
+          <!-- 16:9 aspect ratio -->
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.youtube.com/embed/ZSWWKNFSurM"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END DEPOIMENTOS 2 -->
 
     <!-- START PERGUNTAS FREQUENTES -->
     <section class="perguntas-frequentes">
       <div class="container">
         <div class="row d-flex justify-content-center align-items-center">
-          <div class="col-md-6 pb-5 pb-sm-0">
-            <div class="row pb-5">
+          <div class="col-md-12 pb-5 pb-sm-0">
+            <div class="row text-center pb-3">
               <div class="col-md-12">
                 <h2 class="pb-3">Perguntas Frequentes</h2>
                 <p>
@@ -737,7 +699,7 @@
                       href="#collapseOne"
                     >
                       <div class="card-header accordion">
-                        Varigold realmente funciona?
+                        Lift Gold realmente funciona?
                       </div>
                     </a>
                     <div
@@ -746,12 +708,11 @@
                       data-parent="#accordion"
                     >
                       <div class="card-body conteudo-acordion">
-                        Sim. Varigold foi desenvolvido com ativos extremamente
-                        refinados e cuidadosamente selecionados a fim de se
-                        obter os melhores resultados no combate aos sintomas e
-                        efeitos nocivos das varizes. Sua fórmula contém ativos
-                        que estimulam a circulação sanguínea e linfática,
-                        reduzindo as dores, inchaço e queimação.
+                        Sim. Após uma série de pesquisas e testes científicos
+                        foi comprovada a eficácia com mais de 98,3% de
+                        satisfação; mostrando a excelência do tratamento com o
+                        sérum para reduzir em até 70% as rugas e linhas de
+                        expressão.
                       </div>
                     </div>
                   </div>
@@ -762,7 +723,7 @@
                       href="#collapseTwo"
                     >
                       <div class="card-header accordion">
-                        Varigold é um tratamento?
+                        Lift Gold é um tratamento?
                       </div>
                     </a>
                     <div
@@ -771,12 +732,11 @@
                       data-parent="#accordion"
                     >
                       <div class="card-body conteudo-acordion">
-                        Sim. Varigold foi desenvolvido como um tratamento
-                        auxiliar para fortalecer o sistema sanguíneo das pernas,
-                        prevenindo e tratando os efeitos causados pelas varizes,
-                        tais como: inchaço, dor, aparência e queimação. A
-                        sensação de peso pode ser aliviada já nas primeiras
-                        semanas de aplicação.
+                        Sim. O Lift Gold é um sérum facial com funções de
+                        hidratação e revitalização, que atua no tratamento e
+                        prevenção do envelhecimento precoce. Estimula a
+                        regeneração facial aumentando a produção natural de
+                        colágeno.
                       </div>
                     </div>
                   </div>
@@ -787,7 +747,7 @@
                       href="#collapseThree"
                     >
                       <div class="card-header accordion">
-                        Qual a forma correta para aplicar o Varigold?
+                        Qual a forma correta de aplicar o Lift Gold?
                       </div>
                     </a>
                     <div
@@ -796,11 +756,32 @@
                       data-parent="#accordion"
                     >
                       <div class="card-body conteudo-acordion">
-                        O Varigold deve ser aplicado duas vezes ao dia, de manhã
-                        e à noite. O indicado é massagear as pernas com o
-                        produto com movimentos circulares, de baixo para cima,
-                        para ativar a circulação local e potencializar os
-                        resultados.
+                        <ul>
+                          <li>
+                            – Aplique o Lift Gold com a pele limpa e seca.
+                          </li>
+                          <li>
+                            – Coloque uma pequena quantidade do produto no dedo
+                            e passe dando leves batidinhas na área desejada com
+                            movimentos de dentro para fora até ficar uniforme.
+                          </li>
+                          <li>
+                            – Espere 5 min. ou até que fique seco completamente
+                            e nesse momento é importante que não faça nenhuma
+                            expressão facial, como falar, sorrir até que fique
+                            seco.
+                          </li>
+                          <li>
+                            – Após esses minutos se preferir pode passar filtro
+                            solar e maquiagem com movimentos leves.
+                          </li>
+                          <li>
+                            Vale lembrar que o modo de aplicação do Lift Gold é
+                            diferente dos demais cremes faciais, por esse motivo
+                            é importante que siga os passos corretamente para
+                            obter os resultados desejados.
+                          </li>
+                        </ul>
                       </div>
                     </div>
                   </div>
@@ -811,7 +792,7 @@
                       href="#collapseFour"
                     >
                       <div class="card-header accordion">
-                        O Varigold tem alguma contraindicação?
+                        Posso usar maquiagem após aplicar Lift Gold?
                       </div>
                     </a>
                     <div
@@ -820,9 +801,9 @@
                       data-parent="#accordion"
                     >
                       <div class="card-body conteudo-acordion">
-                        O Varigold tem boa aceitação dérmica. Entretanto, deve
-                        ser evitado o uso durante a gravidez ou usado somente
-                        sob orientação médica.
+                        Sim. É necessário aguardar até 5 minutos que o seu Lift
+                        Gold esteja totalmente seco e você poderá aplicar sua
+                        maquiagem em pó ou líquida normalmente.
                       </div>
                     </div>
                   </div>
@@ -833,7 +814,7 @@
                       href="#collapseFive"
                     >
                       <div class="card-header accordion">
-                        Varigold substitui a meia de compressão?
+                        Como retirar Lift Gold da pele?
                       </div>
                     </a>
                     <div
@@ -842,9 +823,9 @@
                       data-parent="#accordion"
                     >
                       <div class="card-body conteudo-acordion">
-                        Não. O uso das meias de compressão faz parte do
-                        tratamento contra as varizes. O Varigold é um creme que
-                        alivia os sintomas das varizes e má circulação.
+                        Para retirar o produto por completo, lave o rosto com
+                        água corrente ou, se preferir, use os produtos de
+                        limpeza de sua preferência.
                       </div>
                     </div>
                   </div>
@@ -855,7 +836,7 @@
                       href="#collapseSix"
                     >
                       <div class="card-header accordion">
-                        Por que devo comprar este produto?
+                        Quantas aplicações é possível fazer com um frasco?
                       </div>
                     </a>
                     <div
@@ -864,11 +845,9 @@
                       data-parent="#accordion"
                     >
                       <div class="card-body conteudo-acordion">
-                        Só o Varigold conta com uma fórmula exclusiva de ativos
-                        que combatem os sintomas das varizes, melhorando a
-                        circulação sanguínea e reduzindo a sensação de peso nas
-                        pernas. O Varigold ainda favorece o rejuvenescimento
-                        celular, garantindo resultados excelentes.
+                        Cada frasco de Lift Gold rende aproximadamente 30
+                        aplicações , que compreende olheiras, rugas e linhas de
+                        expressão.
                       </div>
                     </div>
                   </div>
@@ -879,7 +858,7 @@
                       href="#collapseSeven"
                     >
                       <div class="card-header accordion">
-                        Onde posso comprar o Varigold?
+                        O Lift Gold tem alguma contraindicação?
                       </div>
                     </a>
                     <div
@@ -888,12 +867,31 @@
                       data-parent="#accordion"
                     >
                       <div class="card-body conteudo-acordion">
-                        O Varigold é vendido no site oficial www.varigold.com.br
-                        e para adquirir é muito simples: Basta escolher o kit
-                        que mais combina com você, preencher os dados cadastrais
-                        e escolher a melhor forma de pagamento. Ou se preferir,
-                        entre em contato com um de nossos atendentes pelo
-                        telefone (51) 3658-4790.
+                        Não. O Lift Gold é um sérum facial hipoalérgico, ou
+                        seja, possui boa aceitação dérmica e é testado
+                        dermatologicamente. No entanto, caso já tenha feito uso
+                        de ácidos, é recomendado buscar orientações médicas.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bordas-accordion">
+                    <a
+                      class="collapsed btn-link"
+                      data-toggle="collapse"
+                      href="#collapseEigth"
+                    >
+                      <div class="card-header accordion">
+                        Quantas vezes ao dia é recomendado passar o Lift Gold?
+                      </div>
+                    </a>
+                    <div
+                      id="collapseEigth"
+                      class="collapse"
+                      data-parent="#accordion"
+                    >
+                      <div class="card-body conteudo-acordion">
+                        É recomendado passar diariamente de uma a duas vezes ao
+                        dia. Na parte da manhã e à noite antes de dormir.
                       </div>
                     </div>
                   </div>
@@ -901,16 +899,16 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 text-center">
+          <!-- <div class="col-md-6 text-center">
             <a
-              href="https://api.whatsapp.com/send?phone=555197063167&text=Quero%20saber%20mais%20sobre%20o%20Varigold"
+              href="https://api.whatsapp.com/send?phone=555197063167&text=Quero%20saber%20mais%20sobre%20o%20Lift%20Gold"
               ><img
                 width="450"
                 class="img-fluid"
                 src="img/mao-mobile-colagenow.png"
                 alt=""
             /></a>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -952,12 +950,12 @@
             <p class="telefone">(51) 3658-4790</p>
             <p class="email">contato@grupogoldclub.com</p>
             <p class="termos">
-              <a href="https://varigold.com.br/termos-e-condicoes/"
+              <a href="https://liftgold.com/lg/termos-e-condicoes/"
                 >Termos e Condições
               </a>
             </p>
             <p class="trocas">
-              <a href="https://varigold.com.br/termos-e-condicoes/"
+              <a href="https://liftgold.com/lg/termos-e-condicoes/"
                 >Trocas e Devoluções
               </a>
             </p>
@@ -980,7 +978,7 @@
           <div class="col-12 col-md-6 col-lg-3 col-xl-3 text-center">
             <h2 class="mb-2 mb-sm-2 mb-md-3">Fale Conosco</h2>
             <a
-              href="https://api.whatsapp.com/send?phone=555197063167&text=Quero%20saber%20mais%20sobre%20o%20Varigold"
+              href="https://api.whatsapp.com/send?phone=555197063167&text=Quero%20saber%20mais%20sobre%20o%20Lift%20Gold"
               ><img class="img-fluid img-whats" src="img/fale-conosco.png"
             /></a>
           </div>
@@ -994,7 +992,7 @@
         <div class="row text-center">
           <div class="col-md-12">
             <p style="margin: 0">
-              Copyright 2021 © Varigold. Todos os direitos reservados a Gold
+              Copyright 2021 © Lift Gold. Todos os direitos reservados a Gold
               Club.
             </p>
           </div>
@@ -1008,7 +1006,7 @@
         <div class="row">
           <div class="col-md-12">
             <a
-              href="https://api.whatsapp.com/send?phone=555197063167&text=Quero%20saber%20mais%20sobre%20o%20Varigold"
+              href="https://api.whatsapp.com/send?phone=555197063167&text=Quero%20saber%20mais%20sobre%20o%20Lift%20Gold"
             >
               <img class="botao-whats" src="img/whatsapp.png" />
             </a>

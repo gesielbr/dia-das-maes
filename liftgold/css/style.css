@@ -525,4 +525,13 @@ a {
     background-size: cover;
     background-position: center;
   }
+
+  .depoimentos {
+    background-color: #ffffff;
+    padding: 0rem 2rem 0rem;
+  }
+
+  .depoimentos-mobile {
+    background-color: #efefef;
+  }
 }
