@@ -19,7 +19,7 @@
     />
 
     <!-- TITLE -->
-    <title>Q10(M) GOLD OFICIAL</title>
+    <title>Q10 GOLD OFICIAL</title>
 
     <!-- FAV ICON -->
     <link rel="icon" href="img/fav_icon.jpg" sizes="32x32" />
