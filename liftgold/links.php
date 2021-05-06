@@ -31,12 +31,12 @@ if (isset($_GET ['id'])) {
 
 $parametros = '?src=' . $src . '&utm_source=' . $utm_source . '&utm_content=' . $utm_content . '&transport=1';
 
-$kit3 = 'https://app.monetizze.com.br/DQA50946' . $parametros;
-$kit2 = 'https://app.monetizze.com.br/DAX49541' . $parametros;
-$kit1 = 'https://app.monetizze.com.br/DZM37276' . $parametros;
+$kit3 = 'https://app.monetizze.com.br/checkout/DQA50946';
+$kit2 = 'https://app.monetizze.com.br/checkout/DAX49541';
+$kit1 = 'https://app.monetizze.com.br/checkout/DZM37276';
 
 $pixel = '';
-$google = 'GTM-5JKJZNF';
+$google = 'GTM-K78R79K';
 $paginaembranco = '';
 
 ?>
