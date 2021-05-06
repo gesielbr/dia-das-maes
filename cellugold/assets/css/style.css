@@ -1,0 +1,672 @@
+    @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+    * {
+        font-family: "Roboto", sans-serif;
+    }
+    /****** TOPO ******/
+    
+    .topo {
+        background-color: #000;
+    }
+    
+    .logo {
+        padding: 10px 0 20px 250px;
+    }
+    
+    a {
+        text-decoration: unset !important;
+        color: unset !important;
+    }
+    
+    .titulo-secao {
+        color: #303030;
+        font-family: "Roboto", Sans-serif;
+        font-size: 36px;
+        letter-spacing: 0;
+        font-weight: bolder;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    /***** botao padrao *****/
+    
+    .botao-padrao {
+        /* max-width: 300px !important;
+  margin: auto;
+  background-color: #08df5a;
+  border: 2px solid #08df5a;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5) !important;
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase; */
+        display: block !important;
+        margin: 0 auto !important;
+        width: 80% !important;
+        font-size: 24px !important;
+        text-transform: uppercase !important;
+        background-color: #00ca75 !important;
+        line-height: 44px !important;
+        padding: 3px 0px !important;
+        margin-top: 20px !important;
+        border: unset !important;
+        border-radius: 5px !important;
+        background-image: -moz-linear-gradient( 90deg, rgb(48, 178, 91) 0%, rgb(87, 208, 130) 100%) !important;
+        background-image: -webkit-linear-gradient( 90deg, rgb(48, 178, 91) 0%, rgb(87, 208, 130) 100%) !important;
+        background-image: -ms-linear-gradient( 90deg, rgb(48, 178, 91) 0%, rgb(87, 208, 130) 100%) important!;
+        box-shadow: 0px 10px 19px 1px rgba(0, 0, 0, 0.3) !important;
+        max-width: 300px;
+    }
+    
+    .margin-botao {
+        margin: 1.5rem auto !important;
+    }
+    
+    .btn:hover {
+        transform: scale(1.3) !important;
+        transition: 0.5s;
+        background-color: #08df5a;
+        border: 2px solid #08df5a;
+    }
+    /**** AVISO *****/
+    
+    .aviso {
+        background-color: #D5426C;
+        padding: 1rem 0 0;
+        color: #ffffff;
+    }
+    
+    .aviso h4 {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: clamp(16px, 3vw, 28px);
+    }
+    
+    .aviso p {
+        font-size: clamp(16px, 3vw, 22px);
+    }
+    
+    .aviso p span {
+        font-weight: bold;
+    }
+    
+    .aviso .horario {
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 100%;
+    }
+    
+    .aviso .oferta-expira {
+        text-transform: uppercase;
+        line-height: 100%;
+        font-weight: bold;
+    }
+    /****** DEPOIMENTOS ******/
+    
+    .depoimentos {
+        font-family: "Roboto", sans-serif;
+        padding: 2rem 0 2rem;
+        background: rgba(250, 250, 250, 1);
+        background: -moz-linear-gradient( top, rgba(250, 250, 250, 1) 0%, rgba(246, 246, 246, 1) 53%, rgba(255, 255, 255, 1) 81%, rgba(255, 255, 255, 1) 100%);
+        background: -webkit-gradient( left top, left bottom, color-stop(0%, rgba(250, 250, 250, 1)), color-stop(53%, rgba(246, 246, 246, 1)), color-stop(81%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(255, 255, 255, 1)));
+        background: -webkit-linear-gradient( top, rgba(250, 250, 250, 1) 0%, rgba(246, 246, 246, 1) 53%, rgba(255, 255, 255, 1) 81%, rgba(255, 255, 255, 1) 100%);
+        background: -o-linear-gradient( top, rgba(250, 250, 250, 1) 0%, rgba(246, 246, 246, 1) 53%, rgba(255, 255, 255, 1) 81%, rgba(255, 255, 255, 1) 100%);
+        background: -ms-linear-gradient( top, rgba(250, 250, 250, 1) 0%, rgba(246, 246, 246, 1) 53%, rgba(255, 255, 255, 1) 81%, rgba(255, 255, 255, 1) 100%);
+        background: linear-gradient( to bottom, rgba(250, 250, 250, 1) 0%, rgba(246, 246, 246, 1) 53%, rgba(255, 255, 255, 1) 81%, rgba(255, 255, 255, 1) 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#ffffff', GradientType=0);
+    }
+    
+    .dotted {
+        border: 2px dotted#d5426c !important;
+        background-color: #f7f7f7 !important;
+        padding: 10px 30px 30px !important;
+        text-align: center;
+        height: 544px;
+        margin-bottom: 20px;
+    }
+    
+    .titulo-secao-depoimentos {
+        color: #000;
+        font-family: "Roboto", Sans-serif;
+        font-size: 36px;
+        letter-spacing: 0;
+        font-weight: bolder;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 20px;
+        margin-bottom: 0;
+        padding-bottom: 10px;
+    }
+    
+    .titulo-secao-depoimentos+h2 {
+        color: #d5426c;
+        font-family: "Roboto", Sans-serif;
+        font-size: 36px;
+        letter-spacing: 0;
+        font-weight: bolder;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 20px;
+        margin-top: 0;
+    }
+    
+    .card h3 {
+        color: #d5426c;
+        text-transform: uppercase;
+        font-weight: bolder;
+        font-size: 24px;
+    }
+    
+    .card span {
+        font-weight: normal;
+    }
+    
+    .conteudo-depoimentos {
+        margin-top: 20px;
+        font-size: 18px;
+        text-align: center;
+        color: #54595f;
+    }
+    /****** VIDEOS ******/
+    
+    .videos {
+        font-family: "Roboto", sans-serif;
+        padding: 3rem 0 3rem;
+        background-color: transparent;
+        background-image: linear-gradient(180deg, #f9f9f9 0%, #ffffff 100%);
+    }
+    
+    .video {
+        padding-bottom: 20px;
+    }
+    
+    .titulo-secao-videos {
+        color: #303030;
+        font-family: "Roboto", Sans-serif;
+        font-size: 36px;
+        letter-spacing: 0;
+        font-weight: bolder;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    /****** CLIENTES SATISFEITOS ******/
+    
+    .clientes-satisfeitos {
+        font-family: "Roboto", sans-serif;
+        background-color: #ffffff;
+        padding: 3rem 0 3rem;
+    }
+    
+    .clientes-satisfeitos h2 {
+        color: #303030;
+        font-family: "Roboto", Sans-serif;
+        font-size: 36px;
+        letter-spacing: 0;
+        font-weight: bolder;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    
+    .mulheres-de-todo-brasil {
+        padding: 2rem 0 2rem;
+        background-color: #fff5f0;
+    }
+    
+    .titulo-secao-mulheres-de-todo-brasil {
+        color: #000000;
+        font-family: "Roboto", Sans-serif;
+        font-size: 36px;
+        letter-spacing: 0;
+        font-weight: bolder;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 20px;
+        margin-bottom: 0;
+        padding-bottom: 10px;
+    }
+    
+    .titulo-secao-mulheres-de-todo-brasil+h2 {
+        color: #d5426c;
+        font-family: "Roboto", Sans-serif;
+        font-size: 36px;
+        letter-spacing: 0;
+        font-weight: bolder;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 20px;
+        margin-top: 0;
+    }
+    /**** DESTAQUE *******/
+    
+    .destaque {
+        background-image: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/cellugold/diadasmaes/banner_cellugold_desktop.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 460px;
+        padding-bottom: 2rem;
+    }
+    
+    .banner-mobile-novo {
+        background-image: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/cellugold/diadasmaes/banner_cellugold_mobile.png");
+        background-size: cover;
+        background-position: center;
+    }
+    /**** KITS ******/
+    
+    .kits {
+        font-family: "Roboto", sans-serif;
+        color: #ffffff;
+    }
+    
+    .titulo-kits {
+        color: #303030;
+        font-family: "Roboto", Sans-serif;
+        font-size: 36px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-style: normal;
+        text-decoration: none;
+        line-height: 1.3em;
+        letter-spacing: 0px;
+    }
+    
+    .sub-titulo-kits {
+        color: #d5426c;
+        font-family: "Roboto", Sans-serif;
+        font-size: 36px;
+        font-weight: bold;
+        text-transform: none;
+        font-style: normal;
+        text-decoration: none;
+        line-height: 1.3em;
+        letter-spacing: 0px;
+    }
+    
+    .pink {
+        background-color: transparent !important;
+        background-image: linear-gradient( 180deg, #f28095 60%, #d5426c 100%) !important;
+    }
+    
+    .descontos-cards {
+        color: #ffffff !important;
+        font-size: 18px !important;
+        font-weight: normal !important;
+        text-transform: uppercase !important;
+        display: block !important;
+        margin: 0 auto !important;
+        padding: 10px 0 10px !important;
+        margin-top: -40px !important;
+        background-color: #d5426c !important;
+        border: 3px solid #d5426c;
+    }
+    
+    .card-body .card-title {
+        color: #ffffff;
+        font-family: "Roboto", Sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        text-transform: none;
+        font-style: normal;
+        text-decoration: none;
+        line-height: 1.3em;
+        letter-spacing: 0px;
+    }
+    
+    .pulse {
+        animation-name: pulse_animation;
+        animation-duration: 1000ms;
+        transform-origin: 70% 70%;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    
+    @keyframes pulse_animation {
+        0% {
+            transform: scale(1);
+        }
+        30% {
+            transform: scale(1);
+        }
+        40% {
+            transform: scale(1.08);
+        }
+        50% {
+            transform: scale(1);
+        }
+        60% {
+            transform: scale(1);
+        }
+        70% {
+            transform: scale(1.05);
+        }
+        80% {
+            transform: scale(1);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+    
+    .valores-de-por {
+        color: #ffffff;
+        font-family: "Roboto", Sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        text-transform: none;
+        font-style: normal;
+        text-decoration: none;
+        line-height: 1.3em;
+        letter-spacing: 0px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    
+    .divisor {
+        margin-top: 0;
+        margin-bottom: 0;
+        border: 0;
+        border-top: 1px solid #fff;
+        width: 50%;
+        padding: 0;
+        margin-top: .5em;
+        margin-bottom: .5em;
+    }
+    
+    .titulo-desconto {
+        font-size: 22px !important;
+        color: #fff !important;
+    }
+    
+    .valor-kit {
+        color: #FFFFFF;
+        font-family: "Roboto", Sans-serif;
+        font-size: 32px;
+        font-weight: bold;
+        text-transform: none;
+        font-style: normal;
+        text-decoration: none;
+        line-height: 1.3em;
+        letter-spacing: 0px;
+    }
+    
+    .compre {
+        font-size: 18px;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-weight: bolder;
+        margin-bottom: 4px;
+    }
+    
+    .kits .conteudo {
+        color: #54595f;
+        font-size: 18px;
+    }
+    
+    .kits p+p {
+        font-weight: bolder;
+    }
+    /***** PERGUNSTAS FREQUENTES *******/
+    
+    .perguntas-frequentes {
+        font-family: "Roboto", sans-serif;
+        padding: 2rem 0 2rem;
+        background-color: #f9f9f9;
+    }
+    
+    .perguntas-frequentes h2 {
+        color: #303030;
+        font-family: "Roboto", Sans-serif;
+        font-size: 36px;
+        font-weight: normal;
+        text-transform: uppercase;
+        font-style: normal;
+        text-decoration: none;
+        line-height: 1.3em;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    /***** ACORDION *******/
+    
+    .btn-link {
+        width: 100%;
+        color: #000000 !important;
+        font-weight: bold !important;
+        text-align: left !important;
+        text-decoration: none !important;
+    }
+    
+    .btn-link:after {
+        content: "\2212";
+        width: 35px;
+        font-size: 25px;
+        text-align: center;
+        right: 15px;
+        top: 5px;
+        position: absolute;
+        /* background-color: #e8eeff; */
+        color: #d5426c;
+    }
+    
+    .bordas-accordion {
+        border: none !important;
+        border-bottom: 1px solid #f28095 !important;
+        border-left: 1px solid#ba3886 !important;
+        border-right: 1px solid#ba3886 !important;
+        border-radius: 0 !important;
+    }
+    
+    .bordas-accordion:first-child {
+        border-top: 1px solid #ba3886 !important;
+    }
+    
+    .bordas-accordion:last-child {
+        border-bottom: 1px solid #ba3886 !important;
+    }
+    
+    .accordion {
+        background-color: none !important;
+        border: none !important;
+        background-color: #ffffff !important;
+    }
+    
+    .btn-link.collapsed:after {
+        content: "\002B";
+        color: #d5426c;
+    }
+    
+    .conteudo-acordion {
+        background-color: #f9f9f9 !important;
+    }
+    /****** GARANTIA *******/
+    
+    .garantia {
+        font-family: "Roboto", sans-serif;
+        padding: 4rem 0 4rem;
+        background-color: transparent;
+        background-image: linear-gradient(180deg, #f9f9f9 0%, #ffffff 100%);
+    }
+    
+    .garantia h2 {
+        color: #000000;
+        font-size: 32px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-style: italic;
+        text-decoration: none;
+        line-height: 1.1em;
+        letter-spacing: 0.3px;
+    }
+    
+    .garantia p {
+        color: #363636;
+        font-family: "Roboto", Sans-serif;
+        font-weight: normal;
+        text-transform: none;
+        font-style: italic;
+    }
+    /********** SELOS ************/
+    
+    .selos {
+        padding: 2rem 0 2rem;
+    }
+    
+    .selos img {
+        width: 100%;
+        max-width: 220px;
+        margin: 0 auto 20px;
+        display: block;
+    }
+    /********** RODAPE ************/
+    
+    #rodape {
+        font-family: "Roboto", sans-serif;
+        text-align: center;
+        background-color: #f9f9f9;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    
+    #rodape h2 {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    .img-rodape {
+        width: 100%;
+        max-width: 180px;
+        margin: 0 auto 20px;
+        display: block;
+    }
+    
+    .whats {
+        width: 100%;
+        max-width: 200px;
+    }
+    
+    .correios {
+        max-width: 150px;
+    }
+    
+    .telefone {
+        margin-bottom: 2px;
+    }
+    
+    .email {
+        margin-bottom: 2px;
+    }
+    
+    .termos {
+        margin-bottom: 0;
+    }
+    
+    .trocas {
+        margin-top: 0;
+    }
+    
+    .copyright {
+        font-size: 14px;
+        margin-top: 25px;
+        font-weight: bold;
+    }
+    /********** WHATS ROLANTE ***************/
+    
+    #whatsapp-rolante {
+        text-align: right;
+        position: fixed;
+        /* z-index: 10000; */
+        bottom: 10px;
+        right: 0px;
+    }
+    /****** MEDIA QUERYS *******/
+    
+    @media (max-width: 1200px) {
+        .dotted {
+            padding: 10px 0 30px !important;
+        }
+    }
+    
+    @media (max-width: 990px) {
+        .dotted {
+            height: auto !important;
+        }
+        .beneficio-1 {
+            margin: 0 auto;
+        }
+        .beneficio-2,
+        .beneficio-3 {
+            margin: 0 auto 20px;
+        }
+        .conteudo-depoimentos {
+            margin-top: 0;
+        }
+    }
+    
+    @media (max-width: 768.98px) {
+        .logo {
+            padding: 0;
+        }
+        /* .titulo-secao {
+    padding-top: 20px;
+  } */
+        .beneficio-1,
+        .beneficio-2,
+        .beneficio-3 {
+            margin: 0 auto 20px;
+        }
+        .botao-whats {
+            width: 15%;
+        }
+    }
+    
+    @media (max-width: 575.98px) {
+        .logo {
+            padding: 10px 0 5px;
+        }
+        .titulo-secao,
+        .titulo-secao-depoimentos,
+        .titulo-secao-videos,
+        .clientes-satisfeitos h2,
+        .titulo-secao-mulheres-de-todo-brasil,
+        .titulo-secao-mulheres-de-todo-brasil+h2,
+        .titulo-kits,
+        .sub-titulo-kits,
+        .garantia h2,
+        .perguntas-frequentes h2 {
+            font-size: 24px;
+        }
+        .titulo-secao-mulheres-de-todo-brasil,
+        .titulo-secao-depoimentos {
+            padding-bottom: 4px;
+        }
+        .titulo-secao-depoimentos+h2 {
+            font-size: 24px;
+            padding-top: 0;
+        }
+        .botao-padrao {
+            width: 100% !important;
+        }
+        .desconto,
+        .disponiveis-titulo {
+            font-size: 14px;
+        }
+        .destaque {
+            background-image: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/cellugold/diadasmaes/banner_cellugold_mobile.png");
+            background-size: cover;
+            background-position: center;
+        }
+        .banner-mobile-novo {
+            background-image: url("https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/cellugold/diadasmaes/mobile/fundo_mobile.png");
+            background-size: cover;
+            background-position: center;
+        }
+    }
+    /********** PC ***************/
+    
+    @media (min-width: 768px) {
+        .botao-whats {
+            width: 20%;
+        }
+    }

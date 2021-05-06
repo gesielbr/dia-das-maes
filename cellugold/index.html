@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css?v=1" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+    <title>CelluGold - Dia das Mães</title>
+    <!--GOOGLE TAG-->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                "gtm.start": new Date().getTime(),
+                event: "gtm.js"
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != "dataLayer" ? "&l=" + l : "";
+            j.async = true;
+            j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, "script", "dataLayer", "GTM-WHR3WJ8");
+    </script>
+</head>
+
+<body>
+    <section class="topo">
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center text-center">
+                <div class="col-md-4 d-none d-sm-block pt-2 pb-2">
+                    <img width="100" class="img-fluid" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/cellugold/diadasmaes/cellugold_logo.png" alt="">
+                </div>
+                <div class="col-md-4 d-block d-sm-none pt-2 pb-2">
+                    <img width="80" class="img-fluid" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/cellugold/diadasmaes/cellugold_logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <a href="#kits">
+        <section class="destaque d-none d-sm-block">
+        </section>
+    </a>
+    <section class="banner-mobile-novo d-block d-sm-none">
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center text-center">
+                <div class="col-md-12">
+                    <img class="img-fluid pt-5 pb-3" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/cellugold/diadasmaes/mobile/logo.png" alt="" srcset="" />
+                </div>
+                <div class="col-md-12">
+                    <img class="img-fluid pb-2" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/cellugold/diadasmaes/mobile/compre_leve.png" alt="" srcset="" />
+                </div>
+                <div class="col-md-12">
+                    <img class="img-fluid pb-3" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/cellugold/diadasmaes/mobile/kit.png" alt="" srcset="" />
+                </div>
+                <div class="col-md-12">
+                    <img class="img-fluid pb-3" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/cellugold/diadasmaes/mobile/preco.png" alt="" srcset="" />
+                </div>
+                <div class="col-md-12">
+                    <a href="#kits"><img class="img-fluid pb-3" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/cellugold/diadasmaes/mobile/botao.png" alt="" srcset="" /></a>
+                </div>
+                <div class="col-md-12">
+                    <img class="img-fluid pb-4" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/cellugold/diadasmaes/mobile/icones.png" alt="" srcset="" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- START AVISO -->
+    <section class="aviso">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12 pb-2">
+                    <h4 class="mb-0">Estoque disponível por pouco tempo!!</h4>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-12 pb-2">
+                    <p class="mb-0">
+                        Devido a grande demanda, restaram apenas
+                        <span> ALGUMAS UNIDADES DISPONÍVEIS </span> em nosso estoque. Garanta o seu <span>AGORA</span>, pois deve acabar HOJE
+                        <span class="data"></span>.
+                    </p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <p class="oferta-expira mb-0">Oferta expira em</p>
+                    <p class="horario">
+                        <span class="min">15</span>:<span class="seg">50</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END AVISO -->
+    <!-- START KITS -->
+    <section class="kits" id="kits">
+        <div class="container">
+            <div class="row text-center pb-5">
+                <!-- START KIT 3 -->
+                <div class="col-md-4 pt-5">
+                    <a href="https://app.monetizze.com.br/checkout/DBY77080">
+                        <div class="card">
+                            <div class="card-body pink pt-5 pb-5">
+                                <div class="row pb-3">
+                                    <div class="col-md-12">
+                                        <h3 class="font-weight-bold titulo-desconto">
+                                            63% DE DESCONTO
+                                        </h3>
+                                        <h5 class="card-title">
+                                            4 UNIDADES + 1 GRÁTIS + BODY GOLD
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img class="img-fluid pb-2" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/cellugold/diadasmaes/cellugold_kit03%20%281%29.png" alt="" width="600" height="585" />
+                                    </div>
+                                </div>
+                                <div class="row no-gutters pt-4">
+                                    <div class="col-12">
+                                        <p class="valores-de-por">de: <s>R$ 999,60</s></p>
+                                        <hr class="divisor" />
+                                        <p class="valores-de-por">por apenas 12x de </p>
+                                        <h2 class="valor-kit pt-1">R$ 41,51</h2>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center pt-1 pb-2">
+                                    <div class="col-sm-12">
+                                        <button type="button" class="btn btn-success btn-lg btn-block botao-padrao pulse">
+                        Comprar agora
+                      </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- END KIT 3 -->
+                <!-- START KIT 2 -->
+                <div class="col-md-4 pt-5">
+                    <a href="https://app.monetizze.com.br/checkout/DFQ58271">
+                        <div class="card">
+                            <div class="card-body pink pt-5 pb-5">
+                                <div class="row pb-3">
+                                    <div class="col-md-12">
+                                        <h3 class="font-weight-bold titulo-desconto">
+                                            40% DE DESCONTO
+                                        </h3>
+                                        <h5 class="card-title">
+                                            2 UNIDADES + 1 GRÁTIS + 1 BODY GOLD
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img class="img-fluid pb-2" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/cellugold/diadasmaes/cellugold_kit02%20%281%29.png" alt="" width="600" height="585" />
+                                    </div>
+                                </div>
+                                <div class="row no-gutters pt-4">
+                                    <div class="col-12">
+                                        <p class="valores-de-por">de: <s>R$ 499,80</s></p>
+                                        <hr class="divisor" />
+                                        <p class="valores-de-por">por apenas 12x de</p>
+                                        <h2 class="valor-kit pt-1">R$ 33,21</h2>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center pt-1 pb-2">
+                                    <div class="col-sm-12">
+                                        <button type="button" class="btn btn-success btn-lg btn-block botao-padrao pulse">
+                        Comprar agora
+                      </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- END KIT 2 -->
+                <!-- START KIT 1 -->
+                <div class="col-md-4 pt-5">
+                    <a href="https://app.monetizze.com.br/checkout/DUU58270?transport=1&split=6&&split=6">
+                        <div class="card">
+                            <div class="card-body pink pt-5 pb-5">
+                                <div class="row pb-3">
+                                    <div class="col-md-12">
+                                        <h3 class="font-weight-bold titulo-desconto">
+                                            20% DE DESCONTO
+                                        </h3>
+                                        <h5 class="card-title">LEVE 1 FRASCO</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img class="img-fluid pb-2" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/cellugold/diadasmaes/cellugold_kit01%20%281%29.png" alt="" width="600" height="585" />
+                                    </div>
+                                </div>
+                                <div class="row no-gutters pt-4">
+                                    <div class="col-12">
+                                        <p class="valores-de-por">de: <s>R$ 249,90</s></p>
+                                        <hr class="divisor" />
+                                        <p class="valores-de-por">por apenas 6x de</p>
+                                        <h2 class="valor-kit pt-1">R$ 38,30</h2>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center pt-1 pb-2">
+                                    <div class="col-sm-12">
+                                        <button type="button" class="btn btn-success btn-lg btn-block botao-padrao pulse">
+                        Comprar agora
+                      </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- END KIT 1 -->
+            </div>
+            <div class="row text-center pb-5">
+                <div class="col-md-12">
+                    <p class="conteudo">
+                        Fórmula exclusiva com nanopartículas que penetram nas camadas mais profundas da pele e diminuem as celulites rapidamente.
+                    </p>
+                    <p class="conteudo">
+                        Recomendamos o tratamento completo para melhores resultados.
+                    </p>
+                    <img class="img-fluid" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/cellugold/img/triade-da-seguranca.webp" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END KITS -->
+    <div class="depoimentos">
+        <div class="container">
+            <div class="row pt-4">
+                <div class="col">
+                    <h1 data-aos="fade-right" class="titulo-secao-depoimentos d-md-block aos-init aos-animate">
+                        TESTADO E APROVADO!
+                    </h1>
+                </div>
+            </div>
+            <div class="row pt-3">
+                <div class="col-lg-4">
+                    <div class="card dotted">
+                        <div class="card-body p-0">
+                            <img class="img-fluid" src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/cellugold/diadasmaes/1.jpg" />
+                            <h3 class="pt-3">Helena, <span>32 anos</span></h3>
+                            <p class="card-text" style="color: #7a7a7a">
+                                <i>“Sem dúvidas é o melhor produto para celulite que já
+                    comprei. Uso todos os dias, faz uma semana e já vejo
+                    resultados que me satisfaz bastante!!”</i
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card dotted">
+              <div class="card-body p-0">
+                <img
+                  class="img-fluid"
+                  src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/cellugold/diadasmaes/2.jpg"
+                />
+                <h3 class="pt-3">Raquel, <span>37 anos</span></h3>
+                <p class="card-text" style="color: #7a7a7a">
+                  <i
+                    >“Estou usando a dois meses, pois foi o recomendado visto
+                    que minha celulite é de um grau bem alto. Não estava
+                    acreditando até usar e sentir a diferença, meses atrás
+                    minhas pernas e bumbum eram tomados pela temida celulite e
+                    hoje já estão super suaves e quase imperceptíveis.”</i
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card dotted">
+              <div class="card-body p-0">
+                <img
+                  class="img-fluid"
+                  src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/cellugold/diadasmaes/3.jpg"
+                />
+                <h3 class="pt-3">Sofia, <span>21 anos</span></h3>
+                <p class="card-text" style="color: #7a7a7a">
+                  <i
+                    >“Nunca pensei que um cosmético vendido pela internet
+                    pudesse ser incrível dessa maneira!! Na primeira aplicação
+                    já senti a minha pele mais macia e perfumada por horas.
+                    Recomendo demais!!”</i
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p class="conteudo-depoimentos">
+              O tratamento começa logo na primeira aplicação, onde já é notável
+              uma pele mais bonita, hidratada e saudável. A melhora da aparência
+              e redução da celulite são perceptíveis a partir de 4 semanas de
+              uso.
+            </p>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-sm-12">
+            <a href="#kits"
+              ><button
+                type="button"
+                class="btn btn-success btn-lg btn-block botao-padrao margin-botao"
+              >
+                Comprar agora
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- START VIDEOS II -->
+    <div class="videos">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1 class="titulo-secao-videos">Cellugold é sucesso nacional</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 video">
+            <!-- 16:9 aspect ratio -->
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe
+                class="embed-responsive-item"
+                src="https://www.youtube.com/embed/nKvRWjvYxb4"
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-md-4 video">
+            <!-- 16:9 aspect ratio -->
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe
+                class="embed-responsive-item"
+                src="https://www.youtube.com/embed/m34HbJnu59M"
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-md-4 video">
+            <!-- 16:9 aspect ratio -->
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe
+                class="embed-responsive-item"
+                src="https://www.youtube.com/embed/RJhhr_HprOw"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 video">
+            <!-- 16:9 aspect ratio -->
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe
+                class="embed-responsive-item"
+                src="https://www.youtube.com/embed/r89m4jOZp0Q"
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-md-4 video">
+            <!-- 16:9 aspect ratio -->
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe
+                class="embed-responsive-item"
+                src="https://www.youtube.com/embed/Jp2mGshnk6c"
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-md-4 video">
+            <!-- 16:9 aspect ratio -->
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe
+                class="embed-responsive-item"
+                src="https://www.youtube.com/embed/Vx54PnNhPeU"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-sm-12">
+            <a href="#kits"
+              ><button
+                type="button"
+                class="btn btn-success btn-lg btn-block botao-padrao margin-botao"
+              >
+                Comprar agora
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END VIDEOS II -->
+    <!-- START REDES SOCIAIS -->
+    <div class="redes-socias">
+      <div class="container">
+        <div class="row pb-4">
+          <div class="col">
+            <h1 data-aos="fade-right" class="titulo-secao-depoimentos">
+              SUCESSO NAS REDES SOCIAIS
+            </h1>
+          </div>
+        </div>
+        <div class="row pt-4">
+          <div class="col-md-6">
+            <img
+              width="500"
+              class="img-fluid img-face"
+              src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/cellugold/img/depoimento06_Desktop.webp"
+              alt=""
+            />
+            <img
+              width="500"
+              class="img-fluid img-face"
+              src="https://www.cellugold.com.br/wp-content/uploads/2020/04/DEPOIMENTO_FB03.png"
+              alt=""
+            />
+            <img
+              width="500"
+              class="img-fluid img-face"
+              src="https://www.cellugold.com.br/wp-content/uploads/2020/04/Cellugold_antes_e_depois_facebook_05.jpg"
+              alt=""
+            />
+            <img
+              width="500"
+              class="img-fluid img-face"
+              src="https://www.cellugold.com.br/wp-content/uploads/2020/04/DEPOIMENTO_FB01.png"
+              alt=""
+            />
+            <img
+              width="500"
+              class="img-fluid img-face"
+              src="https://www.cellugold.com.br/wp-content/uploads/2020/04/Cellugold_antes_e_depois_facebook_01.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-md-6">
+            <img
+              width="500"
+              class="img-fluid img-face"
+              src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/cellugold/img/depoimento05_Desktop.webp"
+              alt=""
+            />
+            <img
+              width="500"
+              class="img-fluid img-face"
+              src="https://www.cellugold.com.br/wp-content/uploads/2020/04/DEPOIMENTO_FB04.png"
+              alt=""
+            />
+            <img
+              width="500"
+              class="img-fluid img-face"
+              src="https://www.cellugold.com.br/wp-content/uploads/2020/04/Cellugold_antes_e_depois_facebook_03.jpg"
+              alt=""
+            />
+            <img
+              width="500"
+              class="img-fluid img-face"
+              src="https://www.cellugold.com.br/wp-content/uploads/2020/04/DEPOIMENTO_FB02.png"
+              alt=""
+            />
+            <img
+              width="500"
+              class="img-fluid img-face"
+              src="https://www.cellugold.com.br/wp-content/uploads/2020/04/Cellugold_antes_e_depois_facebook_06.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-sm-12">
+            <a href="#kits"
+              ><button
+                type="button"
+                class="btn btn-success btn-lg btn-block botao-padrao margin-botao"
+              >
+                Comprar agora
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END REDES SOCIAIS -->
+    <section class="mulheres-de-todo-brasil">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1
+              data-aos="fade-right"
+              class="titulo-secao-mulheres-de-todo-brasil aos-init aos-animate"
+            >
+              O BRASIL TODO RECOMENDA!
+            </h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <img
+              data-aos="fade-right"
+              class="img-fluid aos-init aos-animate"
+              src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/cellugold/img/mosaico_cellugold-clientes.webp"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-sm-12">
+            <a href="#kits"
+              ><button
+                type="button"
+                class="btn btn-success btn-lg btn-block botao-padrao margin-botao"
+              >
+                Comprar agora
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="perguntas-frequentes">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 pb-4 pt-4">
+            <h2>Perguntas Frequentes</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div id="accordion">
+              <div class="card bordas-accordion">
+                <a
+                  class="collapsed btn-link"
+                  data-toggle="collapse"
+                  href="#collapseOne"
+                >
+                  <div class="card-header accordion">O que é o Cellugold?</div>
+                </a>
+                <div id="collapseOne" class="collapse" data-parent="#accordion">
+                  <div class="card-body conteudo-acordion">
+                    Cellugold é um creme anti-celulite desenvolvido com a mais
+                    avançada tecnologia. Sua poderosa fórmula contém
+                    nanopartículas que agem até nas camadas mais profundas da
+                    pele, garantindo a quebra da celulite e deixando sua pele
+                    lisinha muito mais rápido.
+                  </div>
+                </div>
+              </div>
+              <div class="card bordas-accordion">
+                <a
+                  class="collapsed btn-link"
+                  data-toggle="collapse"
+                  href="#collapseTwo"
+                >
+                  <div class="card-header accordion">
+                    Cellugold realmente funciona?
+                  </div>
+                </a>
+                <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                  <div class="card-body conteudo-acordion">
+                    Estudos comprovaram que Cellugold resolve celulites de grau
+                    1,2,3 e 4. A diferença para perceber os resultados é no
+                    tempo de tratamento, para celulites mais profundas, o
+                    recomendável é que seja feito tratamento por no mínimo 2
+                    meses.
+                  </div>
+                </div>
+              </div>
+              <div class="card bordas-accordion">
+                <a
+                  class="collapsed btn-link"
+                  data-toggle="collapse"
+                  href="#collapseThree"
+                >
+                  <div class="card-header accordion">
+                    Em quanto tempo os resultados aparecem?
+                  </div>
+                </a>
+                <div
+                  id="collapseThree"
+                  class="collapse"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body conteudo-acordion">
+                    Os efeitos do Cellugold serão visíveis nos primeiros 7 dias.
+                    Nos graus mais altos, o tratamento surte efeito entre a 3 e
+                    4 semana, dependendo do seu corpo.
+                  </div>
+                </div>
+              </div>
+              <div class="card bordas-accordion">
+                <a
+                  class="collapsed btn-link"
+                  data-toggle="collapse"
+                  href="#collapseFour"
+                >
+                  <div class="card-header accordion">
+                    Cellugold é um tratamento?
+                  </div>
+                </a>
+                <div
+                  id="collapseFour"
+                  class="collapse"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body conteudo-acordion">
+                    Sim. Cellugold foi desenvolvido como tratamento para
+                    combater o problema de 90% das mulheres, a temida celulite.
+                    Cellugold age renovando as células, auxiliando na
+                    microcirculação e acabando com a má aparência das suas
+                    pernas.
+                  </div>
+                </div>
+              </div>
+              <div class="card bordas-accordion">
+                <a
+                  class="collapsed btn-link"
+                  data-toggle="collapse"
+                  href="#collapseFive"
+                >
+                  <div class="card-header accordion">
+                    Por que devo comprar este produto?
+                  </div>
+                </a>
+                <div
+                  id="collapseFive"
+                  class="collapse"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body conteudo-acordion">
+                    O Cellugold é o mais eficaz no tratamento da celulite. Ele
+                    conta com uma fórmula completa e avançada, capaz de trazer
+                    inúmeros benefícios para sua vida, e retomar o bem estar e a
+                    autoestima que você não sente à tempos.
+                  </div>
+                </div>
+              </div>
+              <div class="card bordas-accordion">
+                <a
+                  class="collapsed btn-link"
+                  data-toggle="collapse"
+                  href="#collapseSix"
+                >
+                  <div class="card-header accordion">
+                    Qual o prazo de entrega?
+                  </div>
+                </a>
+                <div id="collapseSix" class="collapse" data-parent="#accordion">
+                  <div class="card-body conteudo-acordion">
+                    O prazo estimado para que seu kit Cellugod chegue é de 2 à 5
+                    dias úteis, nas regiões Sul e Sudeste. Nos demais locais, a
+                    data pode variar, pois depende da postagem feita pelos
+                    Correios. Durante todo o processo você poderá acompanhar seu
+                    pacote através do código de rastreio que disponibilizamos
+                    logo que o pedido entra em rota.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-sm-12 pt-5">
+            <a href="#kits"
+              ><button
+                type="button"
+                class="btn btn-success btn-lg btn-block botao-padrao"
+              >
+                Comprar agora
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="selos">
+      <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4">
+            <img
+              src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/cellugold/img/selo-google.webp"
+              alt=""
+            />
+          </div>
+          <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4">
+            <img
+              src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/cellugold/img/selo-ssh.webp"
+              alt=""
+            />
+          </div>
+          <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4">
+            <img
+              src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/cellugold/img/compra-segura-triptoz.webp"
+              alt=""
+            />
+          </div>
+          <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6">
+            <img
+              src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/cellugold/img/anvisa-triptoz.webp"
+              alt=""
+            />
+          </div>
+          <div
+            class="col-xl-2 col-lg-4 col-md-4 col-sm-6 text-center text-xl-left mb-3 align-self-center"
+            style="font-size: 11px"
+          >
+          <img
+          src="https://www.cellugold.com.br/wp-content/uploads/2020/04/monetizze-icone.png"
+          alt=""
+        />
+          </div>
+          <div class="col-xl-2 col-lg-4 col-md-4 col-sm-12">
+            <img
+              src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/cellugold/img/selo-ggc-1.webp"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="rodape">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3 col-xl-3 text-center">
+            <h2 class="mb-2 mb-sm-2 mb-md-3">Contato</h2>
+            <p class="telefone">(51) 3658-4790</p>
+            <p class="email">contato@grupogoldclub.com</p>
+
+          </div>
+          <div class="col-md-6 col-lg-3 col-xl-3 text-center">
+            <h2 class="mb-2 mb-sm-2 mb-md-3">Formas de Pagamentos</h2>
+            <img
+              class="img-rodape"
+              src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/cellugold/img/pagamento.webp"
+            />
+          </div>
+          <div class="col-md-6 col-lg-3 col-xl-3 text-center">
+            <h2 class="mb-2 mb-sm-2 mb-md-3">Formas de Entrega</h2>
+            <img
+              class="img-rodape correios"
+              src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/cellugold/img/correios-pac-sedex.webp"
+            />
+          </div>
+          <div class="col-md-6 col-lg-3 col-xl-3 text-center">
+            <h2 class="mb-2 mb-sm-2 mb-md-3">Fale Conosco</h2>
+            <a
+              href="https://api.whatsapp.com/send?phone=5551998664299&amp;text=Quero%20saber%20mais%20sobre%20o%20Cellugold"
+              ><img
+                class="img-rodape whats"
+                src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/cellugold/img/fale-conosco.webp"
+            /></a>
+          </div>
+          <div class="col-md-12">
+            <p class="copyright">
+              Copyright © Cellugold. Todos os direitos reservados a Gold Club.
+              CNPJ 26.747.518/0001-87.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
