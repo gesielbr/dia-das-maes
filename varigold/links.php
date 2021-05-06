@@ -33,7 +33,7 @@ $parametros = '?src=' . $src . '&utm_source=' . $utm_source . '&utm_content=' . 
 
 $kit3 = 'https://app.monetizze.com.br/checkout/DSH61003' . $parametros;
 $kit2 = 'https://app.monetizze.com.br/checkout/DWC61002' . $parametros;
-$kit1 = 'https://app.monetizze.com.br/checkout/DFA48855' . $parametros;
+$kit1 = 'https://app.monetizze.com.br/checkout/DYZ61001' . $parametros;
 
 $pixel = '';
 $google = 'GTM-T892TXL';
