@@ -259,23 +259,6 @@
     </section>
     <!-- END AVISO -->
 
-    <!-- START FALTAM TANTOS FRASCOS -->
-    <!-- <div class="restam-tantos-frascos">
-    <div class="container">
-      <div class="row">
-        <div class="col text-center">
-          <p class="quantidade-frascos-disponiveis">
-            RESTAM <strong id="p0"></strong> FRASCOS DISPONÍVEIS!
-          </p>
-          <p class="quantidade-frascos-disponiveis">
-            FINALIZA HOJE <span class="data"></span>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div> -->
-    <!-- END FALTAM TANTOS DIAS -->
-
     <!-- START KITS -->
     <section class="kits" id="kits">
       <div class="container">

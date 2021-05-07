@@ -91,24 +91,6 @@ a {
   line-height: 100%;
   font-weight: bold;
 }
-/*** RESTAM TANTOS FRASCOS */
-
-.restam-tantos-frascos {
-  padding: 1rem 0 1rem;
-  color: #000000;
-  background-color: #efefef;
-}
-
-.restam-tantos-frascos .quantidade-frascos-disponiveis {
-  margin: 0;
-  padding: 0;
-  font-size: clamp(11px, 3vw, 18px);
-  line-height: 1em;
-}
-
-.restam-tantos-frascos .quantidade-frascos-disponiveis:last-child {
-  padding-top: 4px;
-}
 
 /***** CARDS *******/
 
