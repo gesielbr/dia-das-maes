@@ -1,0 +1,604 @@
+/* FONT ROBOTO */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a,
+a:active,
+a:hover {
+  color: unset;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+  box-shadow: unset !important;
+}
+
+.btn.focus,
+.btn:focus {
+  outline: unset !important;
+  box-shadow: unset !important;
+}
+
+.header {
+  background-color: black;
+  padding: 0.6rem 0 0.6rem;
+  margin: 0 auto;
+}
+
+.destaque {
+  background-color: #871108;
+  padding: 0.6rem 0 0.6rem;
+  font-size: clamp(16px, 3vw, 24px);
+}
+
+.destaque p {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.botao-topo {
+  border-radius: 5px;
+  border: unset;
+  box-shadow: 0px 10px 19px 1px rgba(0, 0, 0, 0.3);
+  max-width: 100%;
+  color: #ffffff;
+  height: 60px;
+  line-height: 100%;
+  margin: 0 auto;
+  background-color: #61ce70;
+  border: 2px solid #61ce70;
+  font-weight: bolder;
+  box-shadow: 0px 3px 0px #429b4e;
+  line-height: 100%;
+  margin: 0 auto;
+  font-size: clamp(19px, 3vw, 36px);
+  font-weight: bold;
+  height: auto;
+}
+
+.botao-topo span {
+  font-size: clamp(18px, 3vw, 28px);
+}
+
+.botao-padrao {
+  border-radius: 5px;
+  border: unset;
+  box-shadow: 0px 10px 19px 1px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  color: #ffffff;
+  height: 60px;
+  line-height: 100%;
+  margin: 0 auto;
+  background-color: #61ce70;
+  border: 2px solid #61ce70;
+  font-size: clamp(16px, 3vw, 22px);
+  text-transform: uppercase;
+  font-weight: bolder;
+  box-shadow: 0px 3px 0px #429b4e;
+}
+
+.botao-kit {
+  border-radius: 5px;
+  /* box-shadow: 0px 10px 19px 1px rgb(0 0 0 / 30%); */
+  max-width: 80%;
+  color: #ffffff;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #871108;
+  border: 2px solid #871108;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.voce-sofre-com-algum-desses-problemas {
+  padding: 1rem 0 0;
+}
+
+.voce-sofre-com-algum-desses-problemas h2 {
+  color: #871108;
+  font-size: clamp(22px, 3vw, 36px);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.voce-sofre-com-algum-desses-problemas ul {
+  list-style: none;
+  padding: 0;
+}
+
+.voce-sofre-com-algum-desses-problemas li,
+.voce-sofre-com-algum-desses-problemas li i {
+  font-size: clamp(14px, 3vw, 20px);
+  line-height: clamp(22px, 3vw, 36px);
+}
+
+.voce-sofre-com-algum-desses-problemas li i {
+  color: #871108;
+}
+
+.voce-sofre-com-algum-desses-problemas p {
+  font-size: clamp(16px, 3vw, 22px);
+  color: #871108;
+}
+
+.voce-sofre-com-algum-desses-problemas span {
+  font-weight: bold;
+}
+
+.separador {
+  width: 100%;
+  height: 16px;
+  background: var(--unnamed-color-871108) 0% 0% no-repeat padding-box;
+  background: #871108 0% 0% no-repeat padding-box;
+}
+
+/* FORMULA EXCLUSIVA */
+
+.segredo-da-formula {
+  background-color: #f4efef;
+  padding: 2rem 0 1rem;
+}
+
+.segredo-da-formula h2 {
+  color: #000000;
+  font-size: clamp(20px, 3vw, 36px);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.segredo-da-formula h2 span {
+  color: #871108;
+}
+
+.segredo-da-formula .sub-title {
+  font-size: clamp(16px, 3vw, 22px);
+}
+
+.segredo-da-formula h3 {
+  color: #871108;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.segredo-da-formula img {
+  max-width: 160px;
+}
+
+/* MIDIA */
+.midia {
+  padding: 2rem 0 1rem;
+}
+
+.midia h2 {
+  color: #000000;
+  font-size: clamp(22px, 3vw, 36px);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.midia h2 span {
+  color: #871108;
+}
+
+.midia .img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: clamp(100px, 3vw, 140px);
+}
+
+.midia img {
+  max-height: 70px;
+}
+
+/* DEPOIMENTOS-QUE-TRANSFORMARAM-VIDAS */
+.depoimentos-que-transformaram-vidas {
+  background: #f4efef 0% 0% no-repeat padding-box;
+  padding: 2rem 0 0;
+}
+
+.depoimentos-que-transformaram-vidas h2 {
+  color: #000000;
+  font-size: clamp(22px, 3vw, 36px);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.depoimentos-que-transformaram-vidas h2 span {
+  color: #871108;
+}
+
+/* ESSAS-MULHERES-QUE-ACABARAM-COM-AS-RUGAS */
+
+.essas-mulheres-que-acabaram-com-as-rugas {
+  background: #f4efef 0% 0% no-repeat padding-box;
+  padding: 2rem 0 1rem;
+}
+
+.essas-mulheres-que-acabaram-com-as-rugas h2 {
+  color: #ffffff;
+  font-size: clamp(22px, 3vw, 36px);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* CONHECA-MULHERES-QUE-TIVERAM-SUAS-VIDAS-TRANFORMADAS */
+.conheca-mulheres-que-tiveram-suas-vidas-tranformadas {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  padding: 2rem 0 1rem;
+}
+
+.conheca-mulheres-que-tiveram-suas-vidas-tranformadas h2 {
+  color: #000000;
+  font-size: clamp(22px, 3vw, 36px);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.conheca-mulheres-que-tiveram-suas-vidas-tranformadas h2 span {
+  color: #871108;
+}
+
+/***** KITS *******/
+
+.kits {
+  background: #f4efef 0% 0% no-repeat padding-box;
+  padding: 2rem 0 2rem;
+  color: #000000;
+}
+
+.kits h2 {
+  color: #000000;
+  font-size: clamp(20px, 3vw, 36px);
+  line-height: clamp(20px, 3vw, 36px);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.kits h2 span {
+  color: #890100;
+}
+
+.title-kits:before {
+  content: "";
+  position: absolute;
+  top: 56px;
+  left: 50%;
+  width: 30%;
+  height: 4px;
+  background: #890100;
+  transform: translateX(-50%);
+}
+.kits h4 {
+  margin: auto auto;
+  font-size: clamp(20px, 3vw, 22px);
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: bold;
+}
+
+.bg-roxo {
+  background-color: #871108;
+}
+
+.bg-cinza {
+  background-color: #e8e8e8;
+}
+
+.percentual-desconto {
+  font-size: clamp(16px, 3vw, 20px);
+  line-height: 100%;
+  color: #ffffff;
+  font-weight: bolder;
+  margin-bottom: 3px;
+  margin-top: 6px;
+}
+
+.percentual-desconto-maior-desconto {
+  font-size: clamp(16px, 3vw, 20px);
+  line-height: 100%;
+  color: #871108;
+  font-weight: bolder;
+  margin-bottom: 3px;
+  margin-top: 6px;
+}
+
+.off {
+  line-height: 100%;
+  color: #ffffff;
+  margin: 0;
+}
+
+.off-maior-desconto {
+  line-height: 100%;
+  color: #871108;
+  margin: 0;
+}
+
+.maior-desconto {
+  color: #ffffff;
+}
+
+.o-mais-vendido {
+  color: #871108;
+}
+
+.experimente {
+  color: #000000cc;
+}
+
+.card {
+  border: none;
+}
+
+.card-cor-fundo-kits {
+  padding: 0;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  border: unset;
+}
+
+.titulo-kits {
+  color: #871108;
+  font-size: clamp(18px, 3vw, 18px);
+  line-height: clamp(18px, 3vw, 18px);
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.informacoes {
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+
+.de-por {
+  font-size: 14px;
+  line-height: 14px;
+  text-decoration: line-through;
+  color: red;
+  text-transform: uppercase;
+}
+
+.por {
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.por span {
+  font-weight: bold;
+}
+
+.por-apenas-kits {
+  font-size: 16px;
+  line-height: clamp(31px, 4vw, 34px);
+  text-transform: uppercase;
+}
+
+.por-apenas-kits span {
+  font-weight: bold;
+}
+
+.valor-kits {
+  color: #871108;
+  font-family: "Roboto", Sans-serif;
+  font-size: clamp(32px, 4vw, 42px);
+  line-height: clamp(20px, 4vw, 32px);
+  font-weight: bolder;
+}
+
+.blinking {
+  animation: opacity 1.5s ease-in-out infinite;
+  opacity: 1;
+}
+
+.contem {
+  font-weight: bold;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 1;
+  }
+  /* 50% {
+	  opacity: 0.5;
+	} */
+  100% {
+    opacity: 0;
+  }
+}
+
+/*** GARANTIA ****/
+.garantia {
+  padding: 2rem 0 1rem;
+}
+
+.garantia h2 {
+  color: #000000;
+  font-size: clamp(22px, 3vw, 36px);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.garantia h2 span {
+  color: #871108;
+}
+
+/***** PERGUNSTAS FREQUENTES *******/
+.perguntas-frequentes {
+  font-family: "Roboto", sans-serif;
+  padding: 2rem 0 2rem;
+  background-color: #f9f9f9;
+}
+
+.perguntas-frequentes h2 {
+  color: #890100;
+  font-family: "Roboto", Sans-serif;
+  font-size: clamp(20px, 3vw, 36px);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/***** ACORDION *******/
+
+.btn-link {
+  width: 100%;
+  color: #000000 !important;
+  font-weight: bold !important;
+  text-align: left !important;
+  text-decoration: none !important;
+}
+
+.btn-link:after {
+  content: "\2212";
+  width: 35px;
+  font-size: 25px;
+  text-align: center;
+  right: 5px;
+  top: 5px;
+  position: absolute;
+  /* background-color: #e8eeff; */
+  color: #890100;
+}
+
+.bordas-accordion {
+  border: none !important;
+  border-bottom: 1px solid #890100 !important;
+  border-left: 1px solid #890100 !important;
+  border-right: 1px solid #890100 !important;
+  border-radius: 0 !important;
+}
+
+.bordas-accordion:first-child {
+  border-top: 1px solid #890100 !important;
+}
+
+.bordas-accordion:last-child {
+  border-bottom: 1px solid #890100 !important;
+}
+
+.accordion {
+  background-color: none !important;
+  border: none !important;
+  background-color: #ffffff !important;
+}
+
+.btn-link.collapsed:after {
+  content: "\002B";
+  color: #890100;
+}
+
+.conteudo-acordion {
+  background-color: #f9f9f9;
+}
+
+/********** SELOS ************/
+
+.selos {
+  padding: 2rem 0 2rem;
+}
+
+/********** RODAPE ************/
+
+#rodape {
+  text-align: center;
+  background-color: #efefef;
+  padding: 2rem 0 1rem;
+}
+
+#rodape h2 {
+  color: #353535;
+  font-size: clamp(12px, 3vw, 16px);
+  font-weight: bold;
+}
+
+.img-rodape {
+  width: 100%;
+  max-width: 180px;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+.whats {
+  width: 100%;
+  max-width: 200px;
+}
+
+.correios {
+  max-width: 150px;
+}
+
+.telefone {
+  margin-bottom: 2px;
+}
+
+.email {
+  margin-bottom: 2px;
+}
+
+.termos {
+  margin-bottom: 0;
+}
+
+.trocas {
+  margin-top: 0;
+}
+
+.footer {
+  background-color: #890100;
+  padding: 2rem 0 2rem;
+}
+
+.footer p {
+  margin: 0;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/********** WHATS ROLANTE ***************/
+
+#whatsapp-rolante {
+  text-align: right;
+  position: fixed;
+  /* z-index: 10000; */
+  bottom: 10px;
+  right: 0px;
+}
+
+/*pc*/
+@media (min-width: 768px) {
+  .botao-whats {
+    width: 20%;
+  }
+}
+
+/*mobile*/
+@media (max-width: 768px) {
+  .botao-whats {
+    width: 15%;
+  }
+
+  .correios {
+    max-width: 110px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header img {
+    width: 50px;
+  }
+}
