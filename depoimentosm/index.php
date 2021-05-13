@@ -623,7 +623,7 @@
                       <img
                         width="84%"
                         class="img-fluid py-2"
-                        src="img/q10_kit-topo.webp"
+                        src="img/q10_kit-topo_13_05_21.webp"
                         alt="Card image cap"
                       />
                       <!-- SETAS E VALORES -->
@@ -725,7 +725,7 @@
                       <img
                         width="80%"
                         class="img-fluid py-2"
-                        src="img/q10_kit02.webp"
+                        src="img/q10_kit02_13_05_21.webp"
                         alt="Card image cap"
                       />
                       <!-- SETAS E VALORES -->
@@ -825,7 +825,7 @@
                       <img
                         width="80%"
                         class="img-fluid py-2"
-                        src="img/q10_kit01.webp"
+                        src="img/q10_kit01_13_05_21.webp"
                         alt="Card image cap"
                       />
                       <!-- SETAS E VALORES -->
