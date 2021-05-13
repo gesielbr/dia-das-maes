@@ -33,7 +33,7 @@
     />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css?v=11" />
+    <link rel="stylesheet" href="css/style.css?v=1" />
 
     <!-- ROBOTO FONT -->
     <link
