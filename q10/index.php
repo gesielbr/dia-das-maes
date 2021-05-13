@@ -188,7 +188,7 @@
               <img
                 width="280"
                 class="img-fluid py-1"
-                src="img/kit.png"
+                src="img/kit_13_05_21.png"
                 alt=""
                 srcset=""
               />
@@ -307,7 +307,7 @@
                       >
                       <img
                         class="img-fluid py-2"
-                        src="img/q10gold_kit03.png"
+                        src="img/q10gold_kit03_13_05_21.png"
                         alt="Card image cap"
                       />
                       <h3 class="titulo-kits">6 meses de tratamento</h3>
@@ -387,7 +387,7 @@
                       >
                       <img
                         class="img-fluid py-2"
-                        src="img/q10gold_kit02.png"
+                        src="img/q10gold_kit02_13_05_21.png"
                         alt="Card image cap"
                       />
                       <h3 class="titulo-kits">3 MESES DE TRATAMENTO</h3>
@@ -467,7 +467,7 @@
                       >
                       <img
                         class="img-fluid py-2"
-                        src="img/q10gold_kit01.png"
+                        src="img/q10gold_kit01_13_05_21.png"
                         alt="Card image cap"
                       />
                       <h3 class="titulo-kits">EXPERIMENTE</h3>
