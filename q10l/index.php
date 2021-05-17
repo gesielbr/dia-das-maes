@@ -846,7 +846,7 @@
           </div>
           <div class="col-md-6">
             <a
-              href="https://api.whatsapp.com/send?phone=555197063167&text=Quero%20saber%20mais%20sobre%20o%20Q10%20Gold"
+              href="https://api.whatsapp.com/send?phone=5551980201378&text=(L)%20-%20Quero%20saber%20mais%20sobre%20o%20Q10%20Gold"
               ><img class="img-fluid" src="img/mao-mobile-colagenow.png" alt=""
             /></a>
           </div>
@@ -919,7 +919,7 @@
           <div class="col-12 col-md-6 col-lg-3 col-xl-3 text-center">
             <h2 class="mb-2 mb-sm-2 mb-md-3">Fale Conosco</h2>
             <a
-              href="https://api.whatsapp.com/send?phone=555197063167&text=Quero%20saber%20mais%20sobre%20o%20Q10%20Gold"
+              href="https://api.whatsapp.com/send?phone=5551980201378&text=(L)%20-%20Quero%20saber%20mais%20sobre%20o%20Q10%20Gold"
               ><img class="img-fluid img-whats" src="img/fale-conosco.png"
             /></a>
           </div>
@@ -947,7 +947,7 @@
         <div class="row">
           <div class="col-md-12">
             <a
-              href="https://api.whatsapp.com/send?phone=555197063167&text=Quero%20saber%20mais%20sobre%20o%20Q10%20Gold"
+              href="https://api.whatsapp.com/send?phone=5551980201378&text=(L)%20-%20Quero%20saber%20mais%20sobre%20o%20Q10%20Gold"
             >
               <img class="botao-whats" src="img/whatsapp.png" />
             </a>
